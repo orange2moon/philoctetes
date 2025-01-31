@@ -58,5 +58,5 @@ The case was designed using onshape and you can find a link to it [here](https:/
 
 
 ## Images
-
+You may have noticed in this image the top plate is mounted on top of the keyswitches. It's much better to mount them under the keyswitches. I updated the case to accomodate this and am waiting on the delivery of the new part.
 ![Keyboard Version 0.1](./keyboard_v0.1.jpg)
