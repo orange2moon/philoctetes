@@ -1,7 +1,7 @@
 # Philoctetes Keyboard
 
 
-[!Under Construction](under_construction_openclipart.jpg)
+[!Under Construction](https://github.com/orange2moon/philoctetes/blob/master/under_construction_openclipart.jpg?raw=true)
 
 ## About this project
 
@@ -17,6 +17,9 @@ This keyboard turned into a very expensive build. It is probably one of the most
 The [Totem](https://github.com/GEIGEIGEIST/TOTEM) keyboard. The Totem was the inspiration for this keyboard. I have huge respect for the creator of this project. The creator really put a lot of effort into making a great finished project.
 
 I created this project with a different design goal in mind. The design goals of the Totem seem to be a portable and relativly low cost keyboard, my design goals are to fit perfectly my own hand.
+
+In addition, a big thanks to the [EIGA](https://www.youtube.com/@EIGAtech) youtube channel. Without their channel I would not have learned about the Totem and other split keyboards.
+
 
 ## To Do
 
