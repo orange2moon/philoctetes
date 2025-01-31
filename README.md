@@ -1,7 +1,7 @@
 # Philoctetes Keyboard
 
 
-[!Under Construction](https://github.com/orange2moon/philoctetes/blob/master/under_construction_openclipart.jpg?raw=true)
+![Under Construction](https://github.com/orange2moon/philoctetes/blob/master/under_construction_openclipart.jpg?raw=true)
 
 ## About this project
 
