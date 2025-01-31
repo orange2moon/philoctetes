@@ -35,3 +35,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Fabrication outputs that aren't releases
+pcb_fabrication_outputs/
