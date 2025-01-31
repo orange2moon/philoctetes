@@ -55,3 +55,8 @@ In addition, a big thanks to the [EIGA](https://www.youtube.com/@EIGAtech) youtu
 The case uses a tenting system that I have used for a year. It's not perfect, but every-time I think of switching to a different design I can't find justification. The advantage of my tenting system is that it is very stable and very adjustable. My tenting system is not portable, meaning it will probably bet messed up if you put it in a bag and ride the subway (been there, done that).  
   
 The case was designed using onshape and you can find a link to it [here](https://cad.onshape.com/documents/5c5e04ae1784123d6189c14c/w/86f29d74e9109abb974cb649/e/b3c51a35815c88e0a251e0eb?renderMode=0&uiState=679c96c15b955f7398b0b3b0)  
+
+
+## Images
+
+![Keyboard Version 0.1](./keyboard_v0.1.jpg)
