@@ -8,7 +8,7 @@
 I have worked on this project for about 3 months. It is quite enjoyable, but also time consuming. I made two working keyboards, one bluetooth and one wireless. The feel of the layout is fantastic! Even if my keyboards are working, it's not ready for other people to build. I hope to have time to continue this project, but I can't make promises to anyone. I am sharing this repository for people who might be curious, and to give ideas so as to inspire people to make awesome keyboards.
 
 __Design goals__  
-In [congnitive load theory](https://practicalpie.com/cognitive-load-theory/) there are three processes. These are, the intrinsic, the extrinsic, and the germane. The effort put into typing on a keyboard is purely extrinsic. So one day I had an idea, "could I reduce the extrinsic load of typing on a computer by changing my keyboard?". I think the answer is yes. As a result of this idea, my design goals gravitated toward 42 keys that are arranged to match my hand and the movements of my fingers.
+In [congnitive load theory](https://practicalpie.com/cognitive-load-theory/) there are three processes. These are the intrinsic, the extrinsic, and the germane. The effort put into typing on a keyboard is purely extrinsic. So one day I had an idea, "could I reduce the extrinsic load of typing on a computer by changing my keyboard?". I think the answer is yes. As a result of this idea, my design goals gravitated toward 42 keys that are arranged to match my hand and the movements of my fingers.
 
 This keyboard turned into a very expensive build. It is probably one of the most expensive split keyboards you can build. In addition I only considered the shape and size of my own hand when designing it. Please don't build it.
 
@@ -23,13 +23,13 @@ In addition, a big thanks to the [EIGA](https://www.youtube.com/@EIGAtech) youtu
 
 ## To Do
 
-### Case
+__Case__  
 [x] Add a case mount point to the far outside.  
 [x] Add more space for the oled (the oled is not centered and it hits the lip holding the cover). Moving the oled mount half a mm towards the edge should help.  
 [x] Add more space for the microcontroller (about 1mm on the inner side should do).  
 [x] Add a curve for the TRRS conector.  
 
-### PCB Both sides
+__PCB Both Sides__
 [] change the footprints from sod-323 to sod-323-handsolder.  
 [] Update the footprints in the PCB builder.  
 [] Repair and update nets.  
@@ -45,7 +45,7 @@ In addition, a big thanks to the [EIGA](https://www.youtube.com/@EIGAtech) youtu
 [x] Check the column and row labels and makes sure they match.  
 [x] Check the oled and nice!view pinouts.  
   
-## Project In General  
+__Project In General__  
 [] Create a bill of materials  
 [] Create a build guide  
 [] Test latest PCB  
