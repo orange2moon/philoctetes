@@ -1,0 +1,13 @@
+file_format: "1"
+id: philoctetes
+name: Philoctetes
+type: shield
+url: https://github.com/orange2moon/philoctetes/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - philoctetes_left
+  - philoctetes_right

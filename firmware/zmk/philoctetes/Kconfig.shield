@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Justin Russell
+# SPDX-License-Identifier: MIT
+
+config SHIELD_PHILOCTETES_LEFT
+    def_bool $(shields_list_contains,philoctetes_left)
+
+config SHIELD_PHILOCTETES_RIGHT
+    def_bool $(shields_list_contains,philoctetes_right)
