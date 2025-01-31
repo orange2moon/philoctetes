@@ -29,7 +29,7 @@ __Case__
 [x] Add more space for the microcontroller (about 1mm on the inner side should do).  
 [x] Add a curve for the TRRS conector.  
 
-__PCB Both Sides__
+__PCB Both Sides__  
 [] change the footprints from sod-323 to sod-323-handsolder.  
 [] Update the footprints in the PCB builder.  
 [] Repair and update nets.  
