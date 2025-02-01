@@ -30,9 +30,9 @@ __Case__
 [x] Add a curve for the TRRS conector.  
 
 __PCB Both Sides__  
-[x] fix the annotations
+[x] fix the annotations  
 [] change the footprints from sod-323 to sod-123.  
-    - The Kicad library footprints look too small for hand soldering.
+    - The Kicad library footprints look too small for hand soldering.  
 [] Update the footprints in the PCB builder.  
 [] Redo diode placement  
 [] Redo routing  
