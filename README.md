@@ -30,12 +30,12 @@ __Case__
 [x] Add a curve for the TRRS conector.  
 
 __PCB Both Sides__  
-[] change the footprints from sod-323 to sod-323-handsolder.  
+[x] fix the annotations
+[] change the footprints from sod-323 to sod-123.  
+    - The Kicad library footprints look too small for hand soldering.
 [] Update the footprints in the PCB builder.  
-[] Repair and update nets.  
-[] Recheck routing.  
-[] Move diodes to better accomidate case.  
-[] Improve the footprint placement of the diodes. They are too close together and the Ali-express diodes don't fit well.  
+[] Redo diode placement  
+[] Redo routing  
 [] Improve the silkscreen placements.  
 [x] Improve the placement of the oled display.  
 [x] Add a case mount point to the far outside.  
