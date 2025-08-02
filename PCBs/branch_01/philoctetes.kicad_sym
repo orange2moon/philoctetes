@@ -1,0 +1,321 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "SK6821MINI-E_facedown"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LED_L18"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mysuperawesomekb:LED_SK6812MINI-E_facedown"
+			(at 0.508 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "When you place the LED on the PCB, the light will shine away from your face."
+			(at 3.048 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SK6821MINI-E_facedown_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 2.54 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SK6821MINI-E_facedown_1_1"
+			(pin power_in line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SK6821MINI-E_faceup"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LEDU_L5"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mysuperawesomekb:LED_SK6812MINI-E_faceup"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "When you place the LED on the PCB, the light will shine into your face."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "When you place the LED on the PCB, the light will shine away from your face."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SK6821MINI-E_faceup_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 2.54 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SK6821MINI-E_faceup_1_1"
+			(pin power_in line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+		)
+	)
+)

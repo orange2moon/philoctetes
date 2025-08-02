@@ -1,7 +1,7 @@
 # Philoctetes Keyboard
 
 
-![Under Construction](https://github.com/orange2moon/philoctetes/blob/master/under_construction_openclipart.jpg?raw=true)
+![Under Construction](./images/under_construction_openclipart.jpg)
 
 ## About this project
 
@@ -58,4 +58,4 @@ The case was designed using onshape and you can find a link to it [here](https:/
 
 
 ## Images
-![Keyboard Version 0.1](./keyboard_v0.1.jpg)
+![Keyboard Version 0.1](./images/keyboard_v0.1.jpg)
