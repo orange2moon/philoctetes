@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2a55be96-0621-414c-9e2a-5e2757c4c7b6")
 	(paper "A3")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -96,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy 0 1.778) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -108,7 +112,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -181,9 +185,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -256,7 +263,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -268,7 +275,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -317,9 +324,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_45deg"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -463,10 +473,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N4148W"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -564,10 +579,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -576,10 +591,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -625,6 +640,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -707,6 +723,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_1"
 			(exclude_from_sim no)
@@ -767,10 +784,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -779,9 +795,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -828,24 +845,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -864,7 +863,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_10"
 			(exclude_from_sim no)
@@ -925,10 +943,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -937,9 +954,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -986,24 +1004,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1022,7 +1022,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_11"
 			(exclude_from_sim no)
@@ -1083,10 +1102,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1095,9 +1113,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1144,24 +1163,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1180,7 +1181,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_12"
 			(exclude_from_sim no)
@@ -1241,10 +1261,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1253,9 +1272,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1302,24 +1322,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1338,7 +1340,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_13"
 			(exclude_from_sim no)
@@ -1399,10 +1420,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1411,9 +1431,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1460,24 +1481,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1496,7 +1499,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_14"
 			(exclude_from_sim no)
@@ -1557,10 +1579,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1569,9 +1590,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1618,24 +1640,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1654,7 +1658,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_15"
 			(exclude_from_sim no)
@@ -1715,10 +1738,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1727,9 +1749,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1776,24 +1799,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1812,7 +1817,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_16"
 			(exclude_from_sim no)
@@ -1873,10 +1897,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1885,9 +1908,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1934,24 +1958,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -1970,7 +1976,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_17"
 			(exclude_from_sim no)
@@ -2031,10 +2056,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2043,9 +2067,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2092,24 +2117,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -2128,7 +2135,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_18"
 			(exclude_from_sim no)
@@ -2189,10 +2215,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2201,9 +2226,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2250,24 +2276,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -2286,7 +2294,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_19"
 			(exclude_from_sim no)
@@ -2347,10 +2374,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2359,9 +2385,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2408,24 +2435,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -2444,7 +2453,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_2"
 			(exclude_from_sim no)
@@ -2505,10 +2533,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2517,9 +2544,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2566,24 +2594,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -2602,7 +2612,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_20"
 			(exclude_from_sim no)
@@ -2663,10 +2692,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2675,9 +2703,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2724,24 +2753,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -2760,7 +2771,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_21"
 			(exclude_from_sim no)
@@ -2821,10 +2851,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2833,9 +2862,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2882,24 +2912,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -2918,7 +2930,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_22"
 			(exclude_from_sim no)
@@ -2979,10 +3010,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2991,9 +3021,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3040,24 +3071,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -3076,7 +3089,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_23"
 			(exclude_from_sim no)
@@ -3137,10 +3169,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3149,9 +3180,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3198,24 +3230,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -3234,7 +3248,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_24"
 			(exclude_from_sim no)
@@ -3295,10 +3328,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3307,9 +3339,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3356,24 +3389,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -3392,7 +3407,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_25"
 			(exclude_from_sim no)
@@ -3453,10 +3487,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3465,9 +3498,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3514,24 +3548,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -3550,7 +3566,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_26"
 			(exclude_from_sim no)
@@ -3611,10 +3646,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3623,9 +3657,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3672,24 +3707,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -3708,7 +3725,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_27"
 			(exclude_from_sim no)
@@ -3769,10 +3805,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3781,9 +3816,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3830,24 +3866,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -3866,7 +3884,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_28"
 			(exclude_from_sim no)
@@ -3927,10 +3964,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3939,9 +3975,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3988,24 +4025,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4024,7 +4043,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_29"
 			(exclude_from_sim no)
@@ -4085,10 +4123,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4097,9 +4134,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4146,24 +4184,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4182,7 +4202,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_3"
 			(exclude_from_sim no)
@@ -4243,10 +4282,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4255,9 +4293,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4304,24 +4343,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4340,7 +4361,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_30"
 			(exclude_from_sim no)
@@ -4401,10 +4441,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4413,9 +4452,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4462,24 +4502,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4498,7 +4520,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_31"
 			(exclude_from_sim no)
@@ -4559,10 +4600,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4571,9 +4611,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4620,24 +4661,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4656,7 +4679,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_32"
 			(exclude_from_sim no)
@@ -4717,10 +4759,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4729,9 +4770,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4778,24 +4820,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4814,7 +4838,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_33"
 			(exclude_from_sim no)
@@ -4875,10 +4918,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4887,9 +4929,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4936,24 +4979,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -4972,7 +4997,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_34"
 			(exclude_from_sim no)
@@ -5033,10 +5077,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5045,9 +5088,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5094,24 +5138,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -5130,7 +5156,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_35"
 			(exclude_from_sim no)
@@ -5191,10 +5236,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5203,9 +5247,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5252,24 +5297,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -5288,7 +5315,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_36"
 			(exclude_from_sim no)
@@ -5349,10 +5395,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5361,9 +5406,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5410,24 +5456,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -5446,7 +5474,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_37"
 			(exclude_from_sim no)
@@ -5507,10 +5554,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5519,9 +5565,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5568,24 +5615,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -5604,7 +5633,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_38"
 			(exclude_from_sim no)
@@ -5665,10 +5713,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5677,9 +5724,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5726,24 +5774,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -5762,7 +5792,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_39"
 			(exclude_from_sim no)
@@ -5823,10 +5872,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5835,9 +5883,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5884,24 +5933,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -5920,7 +5951,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_4"
 			(exclude_from_sim no)
@@ -5981,10 +6031,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -5993,9 +6042,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6042,24 +6092,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -6078,7 +6110,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_40"
 			(exclude_from_sim no)
@@ -6139,10 +6190,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6151,9 +6201,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6200,24 +6251,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -6236,7 +6269,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_41"
 			(exclude_from_sim no)
@@ -6297,10 +6349,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6309,9 +6360,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6358,24 +6410,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -6394,7 +6428,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_5"
 			(exclude_from_sim no)
@@ -6455,10 +6508,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6467,9 +6519,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6516,24 +6569,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -6552,7 +6587,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_6"
 			(exclude_from_sim no)
@@ -6613,10 +6667,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6625,9 +6678,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6674,24 +6728,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -6710,7 +6746,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_7"
 			(exclude_from_sim no)
@@ -6771,10 +6826,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6783,9 +6837,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6832,24 +6887,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -6868,7 +6905,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_8"
 			(exclude_from_sim no)
@@ -6929,10 +6985,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6941,9 +6996,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6990,24 +7046,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -7026,7 +7064,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SK6821MINI-E_facedown_9"
 			(exclude_from_sim no)
@@ -7087,10 +7144,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -7099,9 +7155,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -7148,24 +7205,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -7184,12 +7223,35 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Omron_B3FS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7279,10 +7341,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -7291,9 +7352,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -7339,10 +7401,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push_SPDT"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7472,24 +7537,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
@@ -7500,6 +7547,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7526,11 +7591,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "home:Placeholder_Keyswitch"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7588,6 +7658,18 @@
 				)
 			)
 			(symbol "Placeholder_Keyswitch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -7623,10 +7705,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -7639,17 +7720,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -7695,6 +7765,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "home:nice_view"
 			(exclude_from_sim no)
@@ -7766,52 +7837,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 8.89 -3.81 180)
+					(at 8.89 11.43 180)
 					(length 2.54)
-					(name "CS"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7837,17 +7872,53 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 8.89 11.43 180)
+				(pin power_in line
+					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "MOSI"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7856,6 +7927,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "marblast_promicro_ish:nice_nano"
 			(exclude_from_sim no)
@@ -7916,6 +7988,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 11.43 0)
+					(length 2.54)
+					(name "P0.08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -19.05 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -19.05 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 3.81 0)
+					(length 2.54)
+					(name "P0.17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 1.27 0)
+					(length 2.54)
+					(name "P0.20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -1.27 0)
+					(length 2.54)
+					(name "P0.22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -3.81 0)
+					(length 2.54)
+					(name "P0.24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -6.35 0)
+					(length 2.54)
+					(name "P1.00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8068,24 +8284,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -19.05 11.43 0)
-					(length 2.54)
-					(name "P0.08"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 19.05 -3.81 180)
 					(length 2.54)
 					(name "P1.15-LF"
@@ -8175,163 +8373,19 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -19.05 8.89 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -19.05 6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -19.05 3.81 0)
-					(length 2.54)
-					(name "P0.17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -19.05 1.27 0)
-					(length 2.54)
-					(name "P0.20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -19.05 -1.27 0)
-					(length 2.54)
-					(name "P0.22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -19.05 -3.81 0)
-					(length 2.54)
-					(name "P0.24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -19.05 -6.35 0)
-					(length 2.54)
-					(name "P1.00"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "nice_nano_1_0"
 				(pin power_out line
-					(at 19.05 13.97 180)
+					(at -19.05 16.51 0)
 					(length 2.54)
-					(name "BAT+"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 19.05 6.35 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8394,24 +8448,6 @@
 					)
 				)
 				(pin power_out line
-					(at -19.05 16.51 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
 					(at 19.05 16.51 180)
 					(length 2.54)
 					(name "BAT+"
@@ -8422,6 +8458,42 @@
 						)
 					)
 					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 13.97 180)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 6.35 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8443,6 +8515,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "nice_view_1"
 			(exclude_from_sim no)
@@ -8514,52 +8587,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 8.89 -3.81 180)
+					(at 8.89 11.43 180)
 					(length 2.54)
-					(name "CS"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8585,23 +8622,1059 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 8.89 11.43 180)
+				(pin power_in line
+					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "MOSI"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
+				)
+				(pin power_out line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "philoctetes:Battery_Cut_12x37mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT_Cut"
+				(at 4.064 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cut_12x37mm"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "philoctetes:Battery_Cut_12x37mm"
+				(at 19.304 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "kicad-embed://194mAh_battery.pdf"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 13.208 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cut_12x37mm_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(embedded_files
+				(file
+					(name "194mAh_battery.pdf")
+					(type datasheet)
+					(data |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
+						B5Kf309nd9j0uyFYLtX8yU+ezuM7abwJ5g9j68auf1PXX6X5qefL8bh3kKF0sFqp1u18Rd///fbg
+						1PzbHj84L+9Hp0IaG9bVDK07HbeNG7f9mwuWWq/Usq5Xgevb/+ZMxCmvu4m79lxd+1eoo3wVLA2S
+						TUgBUyIQI5BwIPKB0AAjoLXHPpB5HNccyHwgASOlyjoBIwcjzxEwKRglVqm4hsfBsgKj4pQKjDU1
+						oSmwBqNG0ZpTahStkVKXHEBKXSHANTxG+1Of+WLqu/mzHcUiLw6FtSFcLIDRuA7LBDgiXMEEvSCO
+						xTI65ngFnDC2wCnnpsAZx4mfc24NbDkOp3XB6xKn5HgBXLHXqGkizkXcsIaCcEocTR+IfY3gieH6
+						ETQYrp8keDAuP8f0pavPMdVZ/8OfOPXXGHghvAsXIe0F1mHATTRj9JPKboBHGXltvLUeG8bwOgsZ
+						Q1sWMUb9bMF4DUxeG/IiSxijfpYyJk7G/UNDJl7QuuSFWcCXrGAMzVnJGB5lFWOqT/2bGHsiqxlD
+						Z876Y6ybs/4Y/Jz10x7KWX8MPTnrTyiX9SfoPWf9KfFZf0J81plCc846U3zjnHVGlMs6I8plnYZ+
+						LPbZohcrPqNHKz7HwOIzccRnrGXFZ+xLKz5jXSs+w08rPhNHfEbvVnyGfis+Q6cVn9G7FZ/hmxWf
+						qb74DP1WfIbOQnzGuoX4DH4hPoNfiM/QU4jPlCs+o/dCfCa++Ez8jE8GwnIWoZdC/EcvhfiPfViI
+						/1ST/xVLNfk/KaiO+A9OxWvF8KHieBzhwdEkc4R5rqrlhKITCUc1LpaPW6C5jKO/IOj2oXMfJ37X
+						u48L6jgckUUP3WzTVYrRQx38BWqQ3UYKZW5kc3RyZWFtCmVuZG9iagoyOCAwIG9iago8PAovUHJv
+						ZHVjZXIgKHBkZlRlWC0xLjQwLjI1KQovQXV0aG9yKCkvVGl0bGUoKS9TdWJqZWN0KCkvQ3JlYXRv
+						cihcMzc2XDM3N1wwMDBMXDAwMGFcMDAwVFwwMDBlXDAwMFhcMDAwXDA0MFwwMDB2XDAwMGlcMDAw
+						YVwwMDBcMDQwXDAwMHBcMDAwYVwwMDBuXDAwMGRcMDAwb1wwMDBjKS9LZXl3b3JkcygpCi9DcmVh
+						dGlvbkRhdGUgKEQ6MjAyNTA4MDYwODM0MjArMDknMDAnKQovTW9kRGF0ZSAoRDoyMDI1MDgwNjA4
+						MzQyMCswOScwMCcpCi9UcmFwcGVkIC9GYWxzZQovUFRFWC5GdWxsYmFubmVyIChUaGlzIGlzIHBk
+						ZlRlWCwgVmVyc2lvbiAzLjE0MTU5MjY1My0yLjYtMS40MC4yNSAoVGVYIExpdmUgMjAyMykga3Bh
+						dGhzZWEgdmVyc2lvbiA2LjMuNSkKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1R5cGUgL09ialN0bQov
+						TiAyMQovRmlyc3QgMTQ4Ci9MZW5ndGggMTE4NiAgICAgIAovRmlsdGVyIC9GbGF0ZURlY29kZQo+
+						PgpzdHJlYW0KeNqNVmtT2zgU/e5foY+wO7GshyV5ptMZApvuttB2gL6gfPAGkXgm2Bnb6cL++j1X
+						ch7A0jKTyNLVuVf3HD0Fy5hiSjDDhBTMMmEUc0xmhmkmdQErejXDT+kcvUwVggnLnMwSgW6hDIOj
+						UDkaBLCKoeaMZCJDHJUBw6TMUCCi1ApYJhW1c3w13PHT2iXS4mtc8uoV42eMv2nOG8aP2KVCjqeM
+						T6r+ir1+je6En98vPeMfy5lP+GFT977uO5YTLuGnvmtW7dR3YBAMJ/66KsfNHbvMYDBgZAt5lcC9
+						hR+lR7Ah8na8r98ukKpMrXHMZnkKSerVYnH1HFIFpDE2FYV7EdTmqTCPoBOwYaTABMIWA3OlSUyq
+						A8U/ts30zPfsEgocTRg/93c9GwI8UG6v89O+aurfUrFPnnvflTX42+9Zlo2pKKnoN4WnoqXifj+5
+						tNamWAqhVMhZDfU8y178lzsx7JNSW5nKtSXPILPDKFYGq1FpwYzLUsNMLgnhdGoDThmRCpYLQkRv
+						g8VUCDP0D7bgO0RXhjzynCwxPuHwF5ncDJ/T8qDQW6JDLTrm2a4Ewaa1TvMHdZVRfYsYBIxWuZXD
+						BUkjZouOCGwyUFFFiOccaO72RgKxHsorTFZRwMMJCQ9sPpJRuVRDUgusg3QobUFZYtvmTsCWwYMW
+						IfZrZuwG4EADuhpHoULdqQK9pLF1EkGd0QFXACEEtnqsxtI4S1mHTHK7qYX8I2KwaEMTjKDEPnwF
+						KaI0tgfLDWHIGtGDtaAyWgplB8QWG/t1TqPo4KG3qNAXFYr1UF7tHCi0+Y58N22rZd+0cTO+L2/R
+						c3Fx/P7w5Pfjk9PmtqyFHI2bxTUAi3KGcyYix+GMGWlr2Eg6Og6tpQMSQ/CDbkpnjXHAHpbLP301
+						mw9NGpD6RqJA66++XFTTg3q28CxL+Fnvbz9jeoqEfx2csMoQY162dAbs8TEvuect7zn2bMhjUsFX
+						uN1T7Vf0jt6cfJuMN/Sy0amfrRZl+wxDHOojWWDvaEEM5QOGxUOGxYsYml2CSuwSPOBv+Wf+JdAM
+						AH5T/fD8Boc8n/P5/XLua17xBb/ldVV73vAG5ZIvfVs113y5WHWQp/M/AOuqOwjVz1vvef9Pw+/4
+						Pf/Xt82ucjJ7qtwf9bS5ruoZuFQ3Nx73Bt0vl1qF8Fhw6zzioEy7EDZkQuPEEUPKIXnKI2YUGVHi
+						OOXAdcys5m+xw4gzKywvMfuCY0IzDboVvo64QnYBqkt8NW9pF3JcZTIjSldPpx06r/7uQ5OMEHhc
+						dj5cNs+u7QerhYki3qaTqu16mh1cdQk/LocGXg8J/1Jd9/OOngcBulaNHgbBcN58qivYILL8/+X5
+						szx/skgfpirF41S1ei5V8+tU1dNU6eXR0dNjRQ+IhL+rrrvhjn8k/odVv8DkdkM29PgJ8SmbTWMd
+						Z+1Z9bSDh+fLAb3BQm14sEi9mxBtYIy9d9RMR2d92fb7LMjP9pZIkm5+E5u7jwEXM+XH1W3VP/Le
+						BW5fML4DTuZPpTgssZ+bWRI1Wb+mNrzX2Q55SrOmMvMnUJd/6vxWog9LXx+EwdnmUfYfMR2oTApl
+						bmRzdHJlYW0KZW5kb2JqCjI5IDAgb2JqCjw8Ci9UeXBlIC9YUmVmCi9JbmRleCBbMCAzMF0KL1Np
+						emUgMzAKL1cgWzEgMiAxXQovUm9vdCAyNyAwIFIKL0luZm8gMjggMCBSCi9JRCBbPDRFM0Q2ODZD
+						MjE1NjkwOEE5MDk0NkEwQ0Y2RUYxNkU0PiA8NEUzRDY4NkMyMTU2OTA4QTkwOTQ2QTBDRjZFRjE2
+						RTQ+XQovTGVuZ3RoIDg4ICAgICAgICAKL0ZpbHRlciAvRmxhdGVEZWNvZGUKPj4Kc3RyZWFtCnja
+						Fcu5EYBAFAJQ+N7nrkdRpnZiZAl2YSEGzjgm1mMFygYPSADwGQy8V6VREsKFbRJJLI204iSVTjKp
+						JZeC9OFTcl5CVzx28JzC9tLLICOvF3w2/LFpCaAKZW5kc3RyZWFtCmVuZG9iagpzdGFydHhyZWYK
+						NTEwNzgKJSVFT0YK|
+					)
+					(checksum "E44C5F21ACFFF6C5CBA95F522DB090C2")
+				)
+				(file
+					(name "194mAh_battery.txt")
+					(type other)
+					(data |KLUv/SBQgQIAIyMgQmF0dGVyeSAKLVZKNjAxMjM1IDMuN1YKKzE5NG1BaCAwLjcxOFdoClpVMTA3
+						MDEtMTcwMDIKQXBwcm94aW1hdGVseSAxMngzN21tCgo=|
+					)
+					(checksum "54760527A6A7A3940BE61BEB1360B1E3")
 				)
 			)
 		)
@@ -8664,10 +9737,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -8676,9 +9748,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -8725,24 +9798,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -8761,7 +9816,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "philoctetes:SK6821MINI-E_faceup"
 			(exclude_from_sim no)
@@ -8822,10 +9896,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -3.81)
-					)
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -8834,9 +9907,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -8883,24 +9957,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.75 0.75)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 6.35 2.54 180)
 					(length 2.54)
@@ -8919,13 +9975,36 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.75 0.75)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8997,7 +10076,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -9009,7 +10088,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -9040,12 +10119,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9136,6 +10220,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "scotto_keebs:Placeholder_Mounting_Hole"
 			(pin_names
@@ -9218,6 +10303,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "scotto_keebs:Placeholder_TRRS"
 			(pin_names
@@ -9271,6 +10357,17 @@
 			)
 			(symbol "Placeholder_TRRS_0_1"
 				(rectangle
+					(start -3.81 12.7)
+					(end 5.08 12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start -3.81 0)
 					(end -3.81 12.7)
 					(stroke
@@ -9293,17 +10390,6 @@
 					)
 				)
 				(rectangle
-					(start -3.81 12.7)
-					(end 5.08 12.7)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start 5.08 12.7)
 					(end 5.08 0)
 					(stroke
@@ -9316,24 +10402,6 @@
 				)
 			)
 			(symbol "Placeholder_TRRS_1_1"
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "SLEEVE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -8.89 10.16 0)
 					(length 5.08)
@@ -9388,8 +10456,37 @@
 						)
 					)
 				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "PHILOCTETES KEYBOARD"
+		(exclude_from_sim no)
+		(at 128.524 269.24 0)
+		(effects
+			(font
+				(size 12 12)
 			)
 		)
+		(uuid "4ba81133-c431-4178-a70a-11dfac23e8c0")
 	)
 	(junction
 		(at 284.48 219.71)
@@ -15835,16 +16932,6 @@
 		)
 		(uuid "ffc0d9a7-512b-4790-abac-8614e0762194")
 	)
-	(text "PHILOCTETES KEYBOARD"
-		(exclude_from_sim no)
-		(at 128.524 269.24 0)
-		(effects
-			(font
-				(size 12 12)
-			)
-		)
-		(uuid "4ba81133-c431-4178-a70a-11dfac23e8c0")
-	)
 	(global_label "col2_L"
 		(shape input)
 		(at 193.04 39.37 0)
@@ -17541,7 +18628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 133.35 47.625 0)
 			(effects
 				(font
@@ -18680,7 +19767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 111.76 86.995 0)
 			(effects
 				(font
@@ -18773,7 +19860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 55.88 28.575 0)
 			(effects
 				(font
@@ -19606,7 +20693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 294.64 32.385 0)
 			(effects
 				(font
@@ -19997,7 +21084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 389.89 70.485 0)
 			(effects
 				(font
@@ -20164,7 +21251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 133.35 28.575 0)
 			(effects
 				(font
@@ -20257,7 +21344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 111.76 47.625 0)
 			(effects
 				(font
@@ -21237,7 +22324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 294.64 70.485 0)
 			(effects
 				(font
@@ -21403,7 +22490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 312.42 32.385 0)
 			(effects
 				(font
@@ -21723,7 +22810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 91.44 66.675 0)
 			(effects
 				(font
@@ -22728,7 +23815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 91.44 86.995 0)
 			(effects
 				(font
@@ -22895,7 +23982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 55.88 47.625 0)
 			(effects
 				(font
@@ -23062,7 +24149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 312.42 86.995 0)
 			(effects
 				(font
@@ -23155,7 +24242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 330.2 51.435 0)
 			(effects
 				(font
@@ -23321,7 +24408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 133.35 86.995 0)
 			(effects
 				(font
@@ -23484,7 +24571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 91.44 28.575 0)
 			(effects
 				(font
@@ -23577,7 +24664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 133.35 66.675 0)
 			(effects
 				(font
@@ -23750,7 +24837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 294.64 86.995 0)
 			(effects
 				(font
@@ -24077,7 +25164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 389.89 32.385 0)
 			(effects
 				(font
@@ -24324,7 +25411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 38.1 47.625 0)
 			(effects
 				(font
@@ -24859,7 +25946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 73.66 28.575 0)
 			(effects
 				(font
@@ -25408,7 +26495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 330.2 32.385 0)
 			(effects
 				(font
@@ -26038,7 +27125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 312.42 70.485 0)
 			(effects
 				(font
@@ -26212,7 +27299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 330.2 86.995 0)
 			(effects
 				(font
@@ -26305,7 +27392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 368.3 32.385 0)
 			(effects
 				(font
@@ -27036,6 +28123,70 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "H_RIGHT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "philoctetes:Battery_Cut_12x37mm")
+		(at 176.53 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b5e0d1-dffa-40e5-819c-5af29256bbec")
+		(property "Reference" "BT_Cut2"
+			(at 180.34 103.5049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cut_12x37mm"
+			(at 180.34 106.0449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "philoctetes:Battery_Cut_12x37mm"
+			(at 195.834 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://194mAh_battery.pdf"
+			(at 176.53 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 189.738 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "BT_Cut2")
 					(unit 1)
 				)
 			)
@@ -28042,6 +29193,70 @@
 		)
 	)
 	(symbol
+		(lib_id "philoctetes:Battery_Cut_12x37mm")
+		(at 226.06 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98a59092-5076-4359-8f86-db5d37982f4c")
+		(property "Reference" "BT_Cut1"
+			(at 229.87 100.9649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cut_12x37mm"
+			(at 229.87 103.5049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "philoctetes:Battery_Cut_12x37mm"
+			(at 245.364 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://194mAh_battery.pdf"
+			(at 226.06 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 239.268 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "BT_Cut1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SK6821MINI-E_facedown_25")
 		(lib_id "philoctetes:SK6821MINI-E_facedown")
 		(at 311.15 208.28 0)
@@ -28823,7 +30038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 330.2 70.485 0)
 			(effects
 				(font
@@ -28916,7 +30131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 73.66 47.625 0)
 			(effects
 				(font
@@ -29303,7 +30518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 38.1 66.675 0)
 			(effects
 				(font
@@ -29469,7 +30684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 347.98 70.485 0)
 			(effects
 				(font
@@ -29562,7 +30777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 91.44 47.625 0)
 			(effects
 				(font
@@ -30053,7 +31268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 347.98 32.385 0)
 			(effects
 				(font
@@ -30227,7 +31442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 389.89 51.435 0)
 			(effects
 				(font
@@ -30320,7 +31535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 73.66 66.675 0)
 			(effects
 				(font
@@ -30566,7 +31781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 111.76 66.675 0)
 			(effects
 				(font
@@ -30886,7 +32101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 55.88 66.675 0)
 			(effects
 				(font
@@ -31431,7 +32646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+		(property "Footprint" "philoctetes:CP_Radial_D5.0mm_P2.00mm"
 			(at 265.1252 83.82 0)
 			(effects
 				(font
@@ -32412,7 +33627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+		(property "Footprint" "philoctetes:CP_Radial_D5.0mm_P2.00mm"
 			(at 191.4652 85.09 0)
 			(effects
 				(font
@@ -33248,7 +34463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 111.76 28.575 0)
 			(effects
 				(font
@@ -33710,7 +34925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 368.3 51.435 0)
 			(effects
 				(font
@@ -33876,7 +35091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 294.64 51.435 0)
 			(effects
 				(font
@@ -35171,7 +36386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 312.42 51.435 0)
 			(effects
 				(font
@@ -35408,7 +36623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 368.3 70.485 0)
 			(effects
 				(font
@@ -35791,7 +37006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 347.98 51.435 0)
 			(effects
 				(font
@@ -36569,4 +37784,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
