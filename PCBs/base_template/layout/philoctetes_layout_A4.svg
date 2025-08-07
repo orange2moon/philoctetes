@@ -236,9 +236,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="446.53793"
-     inkscape:cy="614.12224"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="492.85341"
+     inkscape:cy="218.31921"
      inkscape:window-width="2560"
      inkscape:window-height="1362"
      inkscape:window-x="0"
@@ -254,62 +254,6 @@
        height="1122.5197"
        margin="0"
        bleed="0" />
-    <sodipodi:guide
-       position="516.021,1007.39"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label="Measure"
-       orientation="0.954168,0.29927"
-       id="guide1"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="516.021,1007.39"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label=""
-       orientation="-0,1"
-       id="guide2"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="516.021,1007.39"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label="Start"
-       orientation="1,0"
-       id="guide3"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="533.763,950.822"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label="End"
-       orientation="-0,1"
-       id="guide4"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="533.763,950.822"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label=""
-       orientation="1,0"
-       id="guide5"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="516.068,1007.24"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label="Crossing 1"
-       orientation="0.29927,-0.954168"
-       id="guide6"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="516.171,1006.91"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label="Crossing 2"
-       orientation="0.29927,-0.954168"
-       id="guide7"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="516.925,1004.51"
-       inkscape:color="rgb(167,0,255)"
-       inkscape:label="Crossing 3"
-       orientation="0.29927,-0.954168"
-       id="guide8"
-       inkscape:locked="false" />
   </sodipodi:namedview>
   <g
      id="g1"
@@ -1769,9 +1713,5 @@
          clip-path="url(#clipPath321-9)"
          id="path322-5" />
     </g>
-    <path
-       style="font-variation-settings:'opsz' 32;opacity:0.446335;fill:#000000;stroke:#000000;stroke-width:0.3;stroke-linecap:round"
-       d="M 590.6062,171.84783 H 533.91329 505.66974"
-       id="path8" />
   </g>
 </svg>
