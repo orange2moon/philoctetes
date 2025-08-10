@@ -23890,6 +23890,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52ffcb1b-97a2-4b89-ba0b-8e533cae6b40")
+		(property "Reference" "#PWR070"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 144.018 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b269c4e7-2fab-44e2-b860-a92033d0c4d3")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "home:Placeholder_Keyswitch")
 		(at 306.07 34.29 0)
 		(unit 1)
@@ -35077,6 +35143,73 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d58bc4-5b34-4970-8189-0dc59dedcfed")
+		(property "Reference" "#PWR069"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_L"
+			(at 151.13 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420dbf0f-26e0-4fba-9b95-d18751d76e41")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
