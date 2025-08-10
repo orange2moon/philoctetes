@@ -326,6 +326,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_45deg"
 			(pin_numbers
 				(hide yes)
@@ -10418,6 +10558,12 @@
 		(uuid "00fe043f-06d9-4726-8252-bbc2d551a775")
 	)
 	(junction
+		(at 318.77 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01bf348f-694f-40d5-a704-cf263404e982")
+	)
+	(junction
 		(at 303.53 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10428,6 +10574,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0396c2be-0343-4ec0-a313-d7edf294ad54")
+	)
+	(junction
+		(at 318.77 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d6166e-7e9f-4c81-901b-61f8c410a61a")
 	)
 	(junction
 		(at 95.25 74.93)
@@ -10442,10 +10594,34 @@
 		(uuid "077110df-569b-4723-8e99-0b9b918d7b73")
 	)
 	(junction
+		(at 321.31 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07d7a3a3-6ddb-4e2d-9a01-600bac44e621")
+	)
+	(junction
+		(at 306.07 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081a4ada-e057-4eb2-9736-900f9d63f5f2")
+	)
+	(junction
+		(at 321.31 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081e606f-220d-4fd1-8bf3-d8c96cc39852")
+	)
+	(junction
 		(at 41.91 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "099aa6b6-f202-404a-95df-ba03c9bd05bc")
+	)
+	(junction
+		(at 299.72 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a02595b-7663-448f-bb1c-25e9f0c89d02")
 	)
 	(junction
 		(at 82.55 27.94)
@@ -10466,6 +10642,24 @@
 		(uuid "0b0a37fa-cc95-4d49-9b8d-c25ca46d07ce")
 	)
 	(junction
+		(at 133.35 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ccba6ff-e07e-4ba9-a0aa-aa642b279b5f")
+	)
+	(junction
+		(at 284.48 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d130ba8-692f-44cf-b179-78200ac5d47b")
+	)
+	(junction
+		(at 133.35 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eb316a0-cfed-413b-b047-3f6fd38851fe")
+	)
+	(junction
 		(at 303.53 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10476,6 +10670,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "107ecd07-f9cb-4c7e-8888-63c8f3c5e80c")
+	)
+	(junction
+		(at 93.98 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1089deb2-5b2e-42c0-a2f1-023e44f8bf72")
+	)
+	(junction
+		(at 97.79 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "112b9b47-e929-4cc4-83ff-7828a641be53")
+	)
+	(junction
+		(at 284.48 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "124dce78-cd1b-4737-b3fb-4a649e95a6a6")
 	)
 	(junction
 		(at 64.77 27.94)
@@ -10490,10 +10702,40 @@
 		(uuid "1297006a-9cc5-457e-86c2-041dcf3928f1")
 	)
 	(junction
+		(at 377.19 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14b532fc-9e60-48cf-9ed1-2dc35e787388")
+	)
+	(junction
+		(at 133.35 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14fdd8e2-6998-416f-927f-ea6d2a41239a")
+	)
+	(junction
+		(at 133.35 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b1cf9d-9f69-4f8e-8141-b1c4e3a948a0")
+	)
+	(junction
+		(at 113.03 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a9e99bf-a432-4a98-af23-d1656b379ebc")
+	)
+	(junction
 		(at 133.35 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1afec642-bfd4-44ed-bcc5-5665340f8fec")
+	)
+	(junction
+		(at 299.72 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b621e58-9c53-4bf6-abaa-e38af46f1810")
 	)
 	(junction
 		(at 59.69 74.93)
@@ -10514,6 +10756,12 @@
 		(uuid "211e1359-0b0d-4bb8-91f5-d978eb8f74ab")
 	)
 	(junction
+		(at 336.55 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "225cb040-99ea-4b52-b27a-aa464aba4a3c")
+	)
+	(junction
 		(at 124.46 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10524,6 +10772,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "248701d7-1e6f-4aaf-aec8-b4d2aa69e51f")
+	)
+	(junction
+		(at 302.26 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248db6d9-4319-4ee5-b68c-58cb905100fd")
 	)
 	(junction
 		(at 133.35 161.29)
@@ -10562,6 +10816,18 @@
 		(uuid "29c1288a-3519-448e-8a42-e97d1295c792")
 	)
 	(junction
+		(at 78.74 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c21c3e-0e27-4afd-99a1-4a0a9d0db507")
+	)
+	(junction
+		(at 323.85 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c463b9-49cb-430b-9755-f67b3f855cfd")
+	)
+	(junction
 		(at 95.25 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10572,6 +10838,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b0abac2-e495-4f15-895c-b00a62d4e110")
+	)
+	(junction
+		(at 113.03 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b88a485-7e15-49b1-9a25-6bcf4edbef16")
 	)
 	(junction
 		(at 76.2 142.24)
@@ -10598,6 +10870,12 @@
 		(uuid "2f1d7e4a-38eb-4440-ac80-fe834c3e05a0")
 	)
 	(junction
+		(at 78.74 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30829648-862f-4a36-93e3-31b218dd0cf8")
+	)
+	(junction
 		(at 115.57 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10608,6 +10886,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31ecd20d-0081-45d8-88c7-d302e0e0adf2")
+	)
+	(junction
+		(at 284.48 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a1de7c-181f-45fa-a057-445b4d0cc879")
+	)
+	(junction
+		(at 58.42 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34563902-f554-4202-b3f3-6b9612ad7a08")
 	)
 	(junction
 		(at 113.03 161.29)
@@ -10634,10 +10924,40 @@
 		(uuid "379ce0ab-6112-4d21-817a-254e88fb7737")
 	)
 	(junction
+		(at 303.53 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f4bbb0-d64c-4a50-ab63-60fab87d79c3")
+	)
+	(junction
+		(at 341.63 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3805495e-4848-440f-be03-0f53c3c43d64")
+	)
+	(junction
+		(at 22.86 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38bcc84b-6507-4944-ab37-40cc5927e26a")
+	)
+	(junction
+		(at 298.45 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd9efd8-d181-49f8-9bd3-fa97a4844643")
+	)
+	(junction
 		(at 321.31 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4000c919-7500-47d0-b14a-b8d3c83e4a80")
+	)
+	(junction
+		(at 340.36 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418d2df1-40c1-4147-858c-c9622a8c6586")
 	)
 	(junction
 		(at 359.41 205.74)
@@ -10658,10 +10978,34 @@
 		(uuid "454f0e10-3f96-4ca5-853e-213c1837bff2")
 	)
 	(junction
+		(at 43.18 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46966a24-0580-48ee-98a0-b49e493ea6a0")
+	)
+	(junction
+		(at 58.42 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4794bcb3-4395-498d-bbf0-8c7a00f14b86")
+	)
+	(junction
 		(at 351.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a6604d7-3234-47f1-b13e-b59fd361069f")
+	)
+	(junction
+		(at 22.86 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b02a0c4-dc6f-4e62-a2dd-3956b3e96e0b")
+	)
+	(junction
+		(at 302.26 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c4928d4-fcb2-43e1-8e29-95b1cb10cae0")
 	)
 	(junction
 		(at 299.72 238.76)
@@ -10676,10 +11020,46 @@
 		(uuid "4f719030-97ac-4afc-ae22-26d85347a4ae")
 	)
 	(junction
+		(at 377.19 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f90f1cc-fe03-4658-a58f-8ca64fae35dc")
+	)
+	(junction
 		(at 334.01 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50cb1bae-b9ad-421a-ade2-a99cbaac7795")
+	)
+	(junction
+		(at 306.07 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51a9cc92-f679-4a1a-bb3f-174cf2b2382d")
+	)
+	(junction
+		(at 336.55 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "530f9054-4b6b-49d0-aa15-86b51ade8c99")
+	)
+	(junction
+		(at 115.57 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5374b889-929c-4159-911c-13d37a2caf5f")
+	)
+	(junction
+		(at 133.35 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b83956-0c51-4080-97c1-b3891a4a6ab0")
+	)
+	(junction
+		(at 377.19 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e28a5d-8eef-446a-9a5e-bf8c64c15590")
 	)
 	(junction
 		(at 284.48 205.74)
@@ -10706,16 +11086,46 @@
 		(uuid "5536fdb8-7f73-4788-a980-7c27e4246f58")
 	)
 	(junction
+		(at 374.65 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ce5e14-e6b6-4805-9563-dcf649745faa")
+	)
+	(junction
 		(at 115.57 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "584a338c-26dc-42d0-9141-5dd3e1099782")
 	)
 	(junction
+		(at 58.42 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "587c03b5-c13f-47ee-a852-2bcedbd5255d")
+	)
+	(junction
+		(at 321.31 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5985d76d-25b8-439b-8693-4c29ed44b57f")
+	)
+	(junction
 		(at 133.35 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5adeaa09-12fd-4c24-abd7-624bdeeb67ce")
+	)
+	(junction
+		(at 115.57 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc2eb0f-e551-4b6f-8729-474967a06752")
+	)
+	(junction
+		(at 76.2 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e71bd20-c23a-4421-b7eb-61ff16e103c4")
 	)
 	(junction
 		(at 124.46 66.04)
@@ -10730,6 +11140,12 @@
 		(uuid "620692eb-3389-4ab6-a9a5-1e5fe8fc15e8")
 	)
 	(junction
+		(at 339.09 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621f900c-01ca-44a2-9319-4c090501eabb")
+	)
+	(junction
 		(at 102.87 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10740,6 +11156,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62b34e4f-5d95-4b2a-99ea-7f9285ff082c")
+	)
+	(junction
+		(at 115.57 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ea6c1d-bb75-4bae-a68b-05439d8e7a74")
+	)
+	(junction
+		(at 113.03 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64f93402-9f36-4f83-a733-704fca361da2")
+	)
+	(junction
+		(at 318.77 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65b32f3b-0ae0-44dd-bd2d-dda6bd405fe1")
 	)
 	(junction
 		(at 29.21 27.94)
@@ -10754,10 +11188,28 @@
 		(uuid "6a24ed4a-b974-4518-9a10-f1d3a5ae6242")
 	)
 	(junction
+		(at 40.64 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a286d6c-1859-4a12-8a22-cf103fcea6e4")
+	)
+	(junction
 		(at 321.31 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6affcd27-9862-4615-9689-88909bcc2cf4")
+	)
+	(junction
+		(at 336.55 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bac646b-cff8-4d73-9ad0-2833c3479ec6")
+	)
+	(junction
+		(at 321.31 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c1a1657-e21b-40f1-bfdd-ee55522725dc")
 	)
 	(junction
 		(at 334.01 59.69)
@@ -10778,6 +11230,12 @@
 		(uuid "6c653c5f-42e6-4b2d-8381-53016419ee2d")
 	)
 	(junction
+		(at 287.02 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dce11f3-9e4f-4f6a-ac8a-7f00504cca20")
+	)
+	(junction
 		(at 113.03 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10790,10 +11248,52 @@
 		(uuid "6eba6966-ce73-43e3-925e-8c7da9c0f07e")
 	)
 	(junction
+		(at 116.84 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f6c644d-b741-4edd-9dba-f17d0b495d82")
+	)
+	(junction
+		(at 97.79 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc036b3-ed33-46ee-89e8-94b87ddcf9ef")
+	)
+	(junction
+		(at 76.2 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b0d731-4e12-4e76-b9e5-e6f68444fec1")
+	)
+	(junction
+		(at 92.71 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71694a59-96a8-4dee-bd58-f03285536b44")
+	)
+	(junction
+		(at 392.43 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f56d13-c158-4da1-b4a2-29370489621d")
+	)
+	(junction
 		(at 321.31 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "771d311d-dcb8-4356-a855-0d2c4285c67c")
+	)
+	(junction
+		(at 76.2 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7781fd2e-05bf-4fcc-939a-56407661009c")
+	)
+	(junction
+		(at 392.43 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b5aadc-730d-465d-975a-be596008121c")
 	)
 	(junction
 		(at 339.09 50.8)
@@ -10814,6 +11314,24 @@
 		(uuid "7c16db8d-7c8a-4910-93c1-d22f6545153a")
 	)
 	(junction
+		(at 76.2 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f43eadd-8070-4f9d-940e-68adceffe499")
+	)
+	(junction
+		(at 336.55 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "814865b6-f5b7-4d1e-af44-b7386a6d0a9b")
+	)
+	(junction
+		(at 96.52 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816e9068-ba6a-41d8-a3aa-774dbf20bd9a")
+	)
+	(junction
 		(at 336.55 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10824,6 +11342,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84dfe22f-75fe-4217-b469-838ac6ac12c1")
+	)
+	(junction
+		(at 60.96 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "887fc274-3b4c-443b-95e8-91a1948c6a5f")
 	)
 	(junction
 		(at 64.77 46.99)
@@ -10838,10 +11362,64 @@
 		(uuid "8a446f39-a996-4cf6-a882-a40a8d8a8836")
 	)
 	(junction
+		(at 76.2 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b70b7db-c589-455f-a402-c21cc09b48bb")
+	)
+	(junction
+		(at 340.36 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c6fde23-0b9d-4744-9eaf-ab84933bc41c")
+	)
+	(junction
+		(at 318.77 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d6380cf-4174-4ae5-a863-ab6fd58c40e1")
+	)
+	(junction
+		(at 115.57 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dfdc4c1-bfcf-4a74-8226-060c7cf36586")
+	)
+	(junction
 		(at 43.18 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90083d91-deeb-428c-80d9-8ac4df6ab713")
+	)
+	(junction
+		(at 374.65 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91090d84-1293-4618-b3a7-bacdeb4e36f8")
+	)
+	(junction
+		(at 355.6 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91bb4ed0-6881-4b10-aff3-7d9c68be9418")
+	)
+	(junction
+		(at 43.18 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93ed048e-b176-456c-ba5d-703226a77864")
+	)
+	(junction
+		(at 22.86 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94be58b2-78fe-4d01-977e-b7edb4616faf")
+	)
+	(junction
+		(at 96.52 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d2b425-584e-4dec-8f58-992b223880c8")
 	)
 	(junction
 		(at 359.41 31.75)
@@ -10886,10 +11464,28 @@
 		(uuid "9937a727-6d33-487c-8378-abcedc6b013d")
 	)
 	(junction
+		(at 285.75 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9980cd70-646a-4009-8492-2fa1a8f760e9")
+	)
+	(junction
 		(at 340.36 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a973646-cfb9-4b54-be45-ee3baff85b1a")
+	)
+	(junction
+		(at 133.35 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac75b8c-a237-41b2-b4c4-985b0a3115c9")
+	)
+	(junction
+		(at 374.65 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c6d457f-3bfa-487c-9657-a34b60f18215")
 	)
 	(junction
 		(at 77.47 38.1)
@@ -10898,10 +11494,22 @@
 		(uuid "9d4f1da1-22fe-4dbb-a72e-0f325b93d3b2")
 	)
 	(junction
+		(at 60.96 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef7adbe-8ba5-4506-86d5-ac3838612812")
+	)
+	(junction
 		(at 372.11 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a172cca0-75a6-4bb5-8249-6ce00d53605d")
+	)
+	(junction
+		(at 359.41 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a19ddf56-ee05-4056-a7c9-ccad3d906aff")
 	)
 	(junction
 		(at 318.77 238.76)
@@ -10914,6 +11522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a372dca3-05d8-4fa9-81fe-f68fb88e7fa9")
+	)
+	(junction
+		(at 321.31 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a47cf79e-824c-40b3-af63-14e98ad1d33f")
 	)
 	(junction
 		(at 77.47 55.88)
@@ -10946,10 +11560,22 @@
 		(uuid "a9b17227-3f42-49c1-b004-ba9c838d1c6a")
 	)
 	(junction
+		(at 113.03 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac20e4a-d612-4687-be82-9002256f6183")
+	)
+	(junction
 		(at 115.57 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abc96dbc-c7c4-482d-887d-4d1b7d60d776")
+	)
+	(junction
+		(at 78.74 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae1ca15e-8678-4fdf-9f5c-7993d773211b")
 	)
 	(junction
 		(at 60.96 195.58)
@@ -10958,10 +11584,34 @@
 		(uuid "af0fca5e-37d0-4788-9c5d-446e3f19c79b")
 	)
 	(junction
+		(at 303.53 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af43ce09-9ed7-477f-8a3f-451e4c57a63a")
+	)
+	(junction
+		(at 339.09 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1525bb0-fc9d-426a-a140-64a4ce279cc1")
+	)
+	(junction
 		(at 316.23 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6db392e-6ac0-4078-a0af-ffe4ee603ce2")
+	)
+	(junction
+		(at 359.41 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6e15efc-d9f6-4b4e-97fc-1b9af28a9644")
+	)
+	(junction
+		(at 303.53 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a7a29a-b28a-4fcf-9ceb-1fde6097454b")
 	)
 	(junction
 		(at 374.65 224.79)
@@ -10974,6 +11624,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b96b3e25-0c80-4ca8-bf09-a73d3de09b83")
+	)
+	(junction
+		(at 60.96 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a2aa01-ad00-4c11-af5d-89ce3a05cbe8")
+	)
+	(junction
+		(at 93.98 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ffc799-30a3-41b6-b216-65d53890cfad")
 	)
 	(junction
 		(at 102.87 27.94)
@@ -10994,16 +11656,40 @@
 		(uuid "bfe5fd51-60f0-4764-8850-dcbfd6feee54")
 	)
 	(junction
+		(at 40.64 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bffee47b-45d1-4821-8b51-a471d037b9e4")
+	)
+	(junction
 		(at 372.11 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0cce178-e8ac-4b3b-9361-e0ee7097b185")
 	)
 	(junction
+		(at 287.02 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c170a138-054e-410b-9cd1-b30d68e9ccc9")
+	)
+	(junction
+		(at 93.98 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2276dd8-19f4-4747-bca2-8b30b4c4b9ad")
+	)
+	(junction
 		(at 377.19 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c259f8bd-0e3b-4cc6-adf3-d9afed771b75")
+	)
+	(junction
+		(at 113.03 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35cbe8d-b85a-4ff5-8651-acfe2e4488f6")
 	)
 	(junction
 		(at 82.55 66.04)
@@ -11036,6 +11722,36 @@
 		(uuid "c7fa1d75-b462-4c64-bdbc-38bbdc2ad79c")
 	)
 	(junction
+		(at 113.03 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8885960-e203-4d6a-8491-aac97542e92b")
+	)
+	(junction
+		(at 303.53 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9079e8b-5c1f-484e-bbbb-b97c677b6a80")
+	)
+	(junction
+		(at 93.98 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9619adb-8084-4836-873d-836667b1ea6a")
+	)
+	(junction
+		(at 99.06 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccfb9103-b5ba-4f84-b3bf-f049203bba23")
+	)
+	(junction
+		(at 78.74 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd264b8c-81df-4333-9f91-ad27de41cfb9")
+	)
+	(junction
 		(at 96.52 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11066,6 +11782,18 @@
 		(uuid "d125713c-85ad-4b75-a269-652620875823")
 	)
 	(junction
+		(at 96.52 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1704a9c-5759-486e-8b53-9c2a9906c9be")
+	)
+	(junction
+		(at 391.16 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34d6501-0dd8-4e0d-b698-2eb93a54f3d3")
+	)
+	(junction
 		(at 303.53 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11078,10 +11806,28 @@
 		(uuid "d511c660-f453-472a-b73c-6f17611cb45a")
 	)
 	(junction
+		(at 355.6 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d58fa7c0-fd7c-4ce5-86d4-e8b71993bb6b")
+	)
+	(junction
 		(at 316.23 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d596960d-8643-473a-bbad-0ec88a48c03c")
+	)
+	(junction
+		(at 355.6 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d65b2b1c-edb8-4dc6-ba74-0de8f79531e0")
+	)
+	(junction
+		(at 40.64 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6a17bc2-b739-45e9-b715-f8a088827f02")
 	)
 	(junction
 		(at 59.69 38.1)
@@ -11112,6 +11858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbeea97c-f1a4-4668-97d5-767a2774ee43")
+	)
+	(junction
+		(at 116.84 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df84bf5b-404b-461d-a5e7-20a4b2ee5ca6")
 	)
 	(junction
 		(at 351.79 78.74)
@@ -11156,6 +11908,12 @@
 		(uuid "ee3e045b-cfbe-492f-89be-662f1a0d11be")
 	)
 	(junction
+		(at 323.85 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f035850c-8fdd-467b-b23e-7dba313fe963")
+	)
+	(junction
 		(at 303.53 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11172,6 +11930,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2cd1d8a-551c-41c9-a840-40d035ecb071")
+	)
+	(junction
+		(at 92.71 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ad08bf-b380-4fa6-ae4a-0c9dea687fc4")
+	)
+	(junction
+		(at 359.41 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3c15beb-8b36-41ec-a5f9-70b5dcda6c2d")
+	)
+	(junction
+		(at 322.58 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3cf91c4-10c3-4255-b1e8-22995901425e")
 	)
 	(junction
 		(at 299.72 224.79)
@@ -11196,6 +11972,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b4cd2f-2484-4b5c-bd76-ae906e477db4")
+	)
+	(junction
+		(at 43.18 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa929724-9de7-4338-aa3e-b6068e5723f4")
+	)
+	(junction
+		(at 299.72 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe1fc8a9-47a0-4f37-af3f-52677ecf716f")
 	)
 	(junction
 		(at 374.65 210.82)
@@ -11281,7 +12069,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 205.74) (xy 303.53 219.71)
+			(xy 303.53 205.74) (xy 303.53 214.63)
 		)
 		(stroke
 			(width 0)
@@ -11301,6 +12089,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 172.72) (xy 323.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022b6ea6-dbe7-4b64-993b-ca42821c0cf3")
+	)
+	(wire
+		(pts
 			(xy 99.06 161.29) (xy 99.06 163.83)
 		)
 		(stroke
@@ -11311,7 +12109,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 147.32) (xy 133.35 161.29)
+			(xy 321.31 214.63) (xy 326.39 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0340da81-33ad-493b-95e6-7e55fb294157")
+	)
+	(wire
+		(pts
+			(xy 133.35 147.32) (xy 133.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -11321,7 +12129,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 196.85) (xy 299.72 210.82)
+			(xy 321.31 172.72) (xy 321.31 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03be1197-75c9-456b-93f3-d63fc0f046de")
+	)
+	(wire
+		(pts
+			(xy 299.72 196.85) (xy 299.72 200.66)
 		)
 		(stroke
 			(width 0)
@@ -11331,13 +12149,23 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 210.82) (xy 355.6 224.79)
+			(xy 355.6 210.82) (xy 355.6 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04409bb1-90e3-4d0d-b5b9-a06d6f4615ff")
+	)
+	(wire
+		(pts
+			(xy 115.57 234.95) (xy 115.57 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f7c88f-cb43-49a6-989c-3de2d94f4f43")
 	)
 	(wire
 		(pts
@@ -11361,7 +12189,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 210.82) (xy 374.65 224.79)
+			(xy 374.65 210.82) (xy 374.65 214.63)
 		)
 		(stroke
 			(width 0)
@@ -11421,13 +12249,53 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 215.9) (xy 93.98 231.14)
+			(xy 359.41 214.63) (xy 359.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092c8a87-caf5-48b1-9692-76416ef7b51e")
+	)
+	(wire
+		(pts
+			(xy 22.86 180.34) (xy 22.86 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a516d4d-09e8-4729-8af3-79f1a7617a41")
+	)
+	(wire
+		(pts
+			(xy 339.09 172.72) (xy 339.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b92b2c2-ffe9-4f2d-86c0-394453f3823b")
+	)
+	(wire
+		(pts
+			(xy 93.98 215.9) (xy 93.98 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0bb4a659-a70e-4cb2-a5fa-2510d4e9c77b")
+	)
+	(wire
+		(pts
+			(xy 104.14 166.37) (xy 97.79 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcacc94-a238-4e23-b16f-01f54674c995")
 	)
 	(wire
 		(pts
@@ -11451,6 +12319,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 200.66) (xy 113.03 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2b7f37-dc00-443b-a30f-e02f0d04b0c0")
+	)
+	(wire
+		(pts
+			(xy 106.68 234.95) (xy 113.03 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4ddb50-04a8-402c-959d-fdbd974b0a42")
+	)
+	(wire
+		(pts
 			(xy 300.99 156.21) (xy 302.26 156.21)
 		)
 		(stroke
@@ -11461,7 +12349,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 180.34) (xy 60.96 195.58)
+			(xy 116.84 166.37) (xy 116.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7965f5-7565-4608-8608-7cee3ebb06aa")
+	)
+	(wire
+		(pts
+			(xy 60.96 180.34) (xy 60.96 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11511,7 +12409,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 210.82) (xy 336.55 224.79)
+			(xy 336.55 210.82) (xy 336.55 214.63)
 		)
 		(stroke
 			(width 0)
@@ -11541,7 +12439,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 151.13) (xy 287.02 163.83)
+			(xy 287.02 151.13) (xy 287.02 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11551,7 +12449,27 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 210.82) (xy 78.74 226.06)
+			(xy 292.1 171.45) (xy 287.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124a9b7a-b5cd-4d01-8738-465c73abb29e")
+	)
+	(wire
+		(pts
+			(xy 88.9 204.47) (xy 93.98 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d37a71-7be3-48cb-ba8e-5b51d1441796")
+	)
+	(wire
+		(pts
+			(xy 78.74 210.82) (xy 78.74 219.71)
 		)
 		(stroke
 			(width 0)
@@ -11571,7 +12489,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 161.29) (xy 133.35 167.64)
+			(xy 133.35 161.29) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -11591,7 +12509,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 151.13) (xy 306.07 163.83)
+			(xy 306.07 151.13) (xy 306.07 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11631,6 +12549,56 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 214.63) (xy 289.56 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162c5f93-b6e6-4464-983d-55e98a4fd4f6")
+	)
+	(wire
+		(pts
+			(xy 303.53 228.6) (xy 308.61 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185b4b3a-2ee6-4151-97c8-9667b9416847")
+	)
+	(wire
+		(pts
+			(xy 92.71 166.37) (xy 87.63 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1903216d-b267-420e-80bb-7e15928fc979")
+	)
+	(wire
+		(pts
+			(xy 58.42 204.47) (xy 58.42 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1919cc24-3da4-40f7-804c-cdbd38bf92dd")
+	)
+	(wire
+		(pts
+			(xy 318.77 228.6) (xy 318.77 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193a3dc8-2388-4865-ae85-06613feaa4e2")
+	)
+	(wire
+		(pts
 			(xy 303.53 179.07) (xy 303.53 191.77)
 		)
 		(stroke
@@ -11661,7 +12629,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 196.85) (xy 78.74 210.82)
+			(xy 78.74 196.85) (xy 78.74 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11671,7 +12639,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 180.34) (xy 96.52 195.58)
+			(xy 318.77 242.57) (xy 313.69 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3ae7d7-8a47-4d3a-ac59-b2ca5bee3878")
+	)
+	(wire
+		(pts
+			(xy 96.52 180.34) (xy 96.52 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11701,6 +12679,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 228.6) (xy 299.72 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd71051-85c1-4daa-b55c-2f6f08f11bb5")
+	)
+	(wire
+		(pts
 			(xy 391.16 224.79) (xy 392.43 224.79)
 		)
 		(stroke
@@ -11711,6 +12699,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 214.63) (xy 318.77 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8cb6a7-456b-469a-846f-09974a86ff35")
+	)
+	(wire
+		(pts
 			(xy 287.02 151.13) (xy 288.29 151.13)
 		)
 		(stroke
@@ -11718,6 +12716,16 @@
 			(type default)
 		)
 		(uuid "1e4a83f3-ce93-4bef-bf17-02f45fcadd01")
+	)
+	(wire
+		(pts
+			(xy 96.52 189.23) (xy 101.6 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e650c54-17d5-433e-989d-95d30ef617a8")
 	)
 	(wire
 		(pts
@@ -11741,6 +12749,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 242.57) (xy 336.55 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206e1da7-d4b3-40d1-9558-c2c08a33afb0")
+	)
+	(wire
+		(pts
 			(xy 41.91 55.88) (xy 59.69 55.88)
 		)
 		(stroke
@@ -11748,6 +12766,16 @@
 			(type default)
 		)
 		(uuid "2100f62b-1a84-4f33-857d-65ae1a4d1dbd")
+	)
+	(wire
+		(pts
+			(xy 97.79 151.13) (xy 102.87 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2119c23a-e542-4b41-9dba-6b456b57a30b")
 	)
 	(wire
 		(pts
@@ -11768,6 +12796,16 @@
 			(type default)
 		)
 		(uuid "219997a2-0af8-46e6-a863-57371e04b7b5")
+	)
+	(wire
+		(pts
+			(xy 113.03 166.37) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ecb5c8-133b-47c0-a0d9-84ae0ec1a957")
 	)
 	(wire
 		(pts
@@ -11831,6 +12869,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 200.66) (xy 381 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c9b0b5-c6ca-43d7-b49c-a3046d6d5f64")
+	)
+	(wire
+		(pts
 			(xy 316.23 91.44) (xy 316.23 93.98)
 		)
 		(stroke
@@ -11838,6 +12886,16 @@
 			(type default)
 		)
 		(uuid "2400d88f-ea9f-4148-bef8-de64f62b6d8c")
+	)
+	(wire
+		(pts
+			(xy 78.74 219.71) (xy 78.74 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241a3469-6d3f-4e3f-8e25-6e04e226131e")
 	)
 	(wire
 		(pts
@@ -11911,6 +12969,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 189.23) (xy 96.52 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b10b92-ef8b-444c-a108-9085e0e9d079")
+	)
+	(wire
+		(pts
 			(xy 130.81 142.24) (xy 137.16 142.24)
 		)
 		(stroke
@@ -11928,6 +12996,16 @@
 			(type default)
 		)
 		(uuid "26124b76-e9e4-432c-88a0-b622e44ad9d6")
+	)
+	(wire
+		(pts
+			(xy 350.52 214.63) (xy 355.6 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2682d111-ade9-4ab3-a2b4-d81ba92184ba")
 	)
 	(wire
 		(pts
@@ -11971,7 +13049,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 224.79) (xy 355.6 242.57)
+			(xy 355.6 224.79) (xy 355.6 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12011,7 +13089,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 161.29) (xy 113.03 167.64)
+			(xy 113.03 161.29) (xy 113.03 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12031,7 +13109,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 195.58) (xy 60.96 210.82)
+			(xy 60.96 195.58) (xy 60.96 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12071,7 +13149,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 196.85) (xy 355.6 210.82)
+			(xy 355.6 196.85) (xy 355.6 200.66)
 		)
 		(stroke
 			(width 0)
@@ -12091,7 +13169,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 185.42) (xy 93.98 201.93)
+			(xy 93.98 185.42) (xy 93.98 189.23)
 		)
 		(stroke
 			(width 0)
@@ -12131,13 +13209,43 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 205.74) (xy 321.31 219.71)
+			(xy 321.31 205.74) (xy 321.31 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2af04434-dbab-4632-a0ce-6202b8137591")
+	)
+	(wire
+		(pts
+			(xy 336.55 238.76) (xy 336.55 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b487d94-99bb-4f2f-8980-79ee73a6b73e")
+	)
+	(wire
+		(pts
+			(xy 285.75 233.68) (xy 285.75 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b99ec32-cde9-4386-8d1f-eb4e1842faf1")
+	)
+	(wire
+		(pts
+			(xy 321.31 200.66) (xy 327.66 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3a27b5-e633-4d61-ad52-26a53e96f058")
 	)
 	(wire
 		(pts
@@ -12161,7 +13269,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 215.9) (xy 113.03 231.14)
+			(xy 113.03 215.9) (xy 113.03 219.71)
 		)
 		(stroke
 			(width 0)
@@ -12191,7 +13299,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 205.74) (xy 340.36 219.71)
+			(xy 340.36 205.74) (xy 340.36 214.63)
 		)
 		(stroke
 			(width 0)
@@ -12201,7 +13309,37 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 196.85) (xy 318.77 210.82)
+			(xy 76.2 204.47) (xy 76.2 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d90ffcf-02a1-4d3e-8ac1-9dbfd41bc2dd")
+	)
+	(wire
+		(pts
+			(xy 71.12 204.47) (xy 76.2 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc4b1b1-7428-41dd-bf4d-b4f678f7d890")
+	)
+	(wire
+		(pts
+			(xy 96.52 219.71) (xy 101.6 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de22d36-e517-437a-9482-64cbea4b2047")
+	)
+	(wire
+		(pts
+			(xy 318.77 196.85) (xy 318.77 200.66)
 		)
 		(stroke
 			(width 0)
@@ -12221,6 +13359,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 151.13) (xy 97.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e35168d-0892-4847-8608-1166aa8983e5")
+	)
+	(wire
+		(pts
 			(xy 339.09 31.75) (xy 339.09 50.8)
 		)
 		(stroke
@@ -12231,6 +13379,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 204.47) (xy 58.42 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd37407-5d58-406b-b9c6-c2163560ff61")
+	)
+	(wire
+		(pts
+			(xy 97.79 166.37) (xy 97.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301e3a14-6345-493f-b5ce-357d4ff94640")
+	)
+	(wire
+		(pts
 			(xy 300.99 227.33) (xy 300.99 219.71)
 		)
 		(stroke
@@ -12238,6 +13406,16 @@
 			(type default)
 		)
 		(uuid "30329f61-9b5e-4867-9be7-7c1d28acc75e")
+	)
+	(wire
+		(pts
+			(xy 30.48 204.47) (xy 22.86 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30af6972-c06a-42ba-908e-92fad66ef4a9")
 	)
 	(wire
 		(pts
@@ -12281,6 +13459,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 189.23) (xy 133.35 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b77a9a-15e7-47a5-8d2b-4546fb27368d")
+	)
+	(wire
+		(pts
 			(xy 59.69 52.07) (xy 59.69 55.88)
 		)
 		(stroke
@@ -12291,7 +13479,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 156.21) (xy 302.26 168.91)
+			(xy 302.26 156.21) (xy 302.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12301,13 +13489,33 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 156.21) (xy 339.09 168.91)
+			(xy 303.53 228.6) (xy 303.53 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32218f97-ed3c-4fd4-8ea8-841db70fab21")
+	)
+	(wire
+		(pts
+			(xy 339.09 156.21) (xy 339.09 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3273f736-e144-42fe-82e9-5b2adc78043d")
+	)
+	(wire
+		(pts
+			(xy 93.98 189.23) (xy 93.98 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3276b112-51d5-45d0-b51a-4aa311103109")
 	)
 	(wire
 		(pts
@@ -12331,7 +13539,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 191.77) (xy 321.31 205.74)
+			(xy 321.31 191.77) (xy 321.31 200.66)
 		)
 		(stroke
 			(width 0)
@@ -12361,6 +13569,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 214.63) (xy 374.65 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b23a6d-42fa-4321-8202-e9b41a778fc3")
+	)
+	(wire
+		(pts
 			(xy 304.8 238.76) (xy 302.26 238.76)
 		)
 		(stroke
@@ -12381,7 +13599,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 195.58) (xy 43.18 210.82)
+			(xy 43.18 195.58) (xy 43.18 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12421,6 +13639,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 171.45) (xy 302.26 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356ac4a2-b04c-4b9b-ada7-4ec784a90672")
+	)
+	(wire
+		(pts
 			(xy 137.16 91.44) (xy 137.16 93.98)
 		)
 		(stroke
@@ -12451,7 +13679,57 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 215.9) (xy 76.2 236.22)
+			(xy 377.19 228.6) (xy 377.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3636a3d0-8093-420a-b5d0-aaaa838dbd75")
+	)
+	(wire
+		(pts
+			(xy 287.02 160.02) (xy 290.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364a440b-b26d-4c18-b666-ce2de7b00cde")
+	)
+	(wire
+		(pts
+			(xy 391.16 200.66) (xy 391.16 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36527dc4-a59b-4d89-92d8-eaba17883db2")
+	)
+	(wire
+		(pts
+			(xy 60.96 189.23) (xy 60.96 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36614f6b-979b-4bdb-b908-2d8f90883fb4")
+	)
+	(wire
+		(pts
+			(xy 60.96 204.47) (xy 60.96 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369d6a8c-7162-46b9-a088-bd1f1527c748")
+	)
+	(wire
+		(pts
+			(xy 76.2 215.9) (xy 76.2 219.71)
 		)
 		(stroke
 			(width 0)
@@ -12481,6 +13759,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 215.9) (xy 382.27 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a6871b-1e22-4ad1-a2bd-da28d20a240e")
+	)
+	(wire
+		(pts
 			(xy 110.49 190.5) (xy 110.49 195.58)
 		)
 		(stroke
@@ -12501,13 +13789,23 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 205.74) (xy 359.41 219.71)
+			(xy 359.41 205.74) (xy 359.41 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a31d935-03d0-408e-ae0c-329b818701fc")
+	)
+	(wire
+		(pts
+			(xy 115.57 219.71) (xy 115.57 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a37c201-b3e0-49e2-8d2a-a2c3f5e55901")
 	)
 	(wire
 		(pts
@@ -12518,6 +13816,16 @@
 			(type default)
 		)
 		(uuid "3a65f708-2bca-4e07-b025-20d095dd2fef")
+	)
+	(wire
+		(pts
+			(xy 35.56 219.71) (xy 40.64 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab37314-a18f-490d-b70e-11f3db952cec")
 	)
 	(wire
 		(pts
@@ -12541,6 +13849,36 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 204.47) (xy 40.64 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b08cd27-bf1c-422a-b86b-3942597ef282")
+	)
+	(wire
+		(pts
+			(xy 58.42 219.71) (xy 58.42 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3a095f-c302-4c9e-a6f2-c56567d0857c")
+	)
+	(wire
+		(pts
+			(xy 116.84 151.13) (xy 116.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7499cd-9ea0-46e0-998e-642e5f00cca2")
+	)
+	(wire
+		(pts
 			(xy 43.18 195.58) (xy 44.45 195.58)
 		)
 		(stroke
@@ -12561,6 +13899,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 219.71) (xy 113.03 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3a10d4-bc2c-4a99-9b32-d9d2c3f8c607")
+	)
+	(wire
+		(pts
 			(xy 304.8 156.21) (xy 304.8 144.78)
 		)
 		(stroke
@@ -12568,6 +13916,16 @@
 			(type default)
 		)
 		(uuid "3c800b9b-4858-4751-88ff-9c3585dfeb65")
+	)
+	(wire
+		(pts
+			(xy 76.2 149.86) (xy 82.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc39aeb-3c59-438f-ac02-cd514a71aef6")
 	)
 	(wire
 		(pts
@@ -12581,13 +13939,33 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 142.24) (xy 76.2 156.21)
+			(xy 374.65 200.66) (xy 374.65 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc5a897-e1df-4504-9372-fc03f62dfd07")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 76.2 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f01a677-7739-4419-b5f6-75767d85d4e7")
+	)
+	(wire
+		(pts
+			(xy 30.48 219.71) (xy 22.86 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2a0a6e-55db-44c3-9ea1-2833cc11d508")
 	)
 	(wire
 		(pts
@@ -12598,6 +13976,16 @@
 			(type default)
 		)
 		(uuid "3f409f69-0797-47c8-9aa6-7a920d045b8c")
+	)
+	(wire
+		(pts
+			(xy 285.75 242.57) (xy 289.56 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5a24c0-5d01-4a97-aa36-ebd7c1929358")
 	)
 	(wire
 		(pts
@@ -12651,6 +14039,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 200.66) (xy 284.48 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406eafeb-cf45-4793-99b2-786135130e0e")
+	)
+	(wire
+		(pts
+			(xy 78.74 189.23) (xy 83.82 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411cd901-ed2d-4163-a743-9aa5e49951ef")
+	)
+	(wire
+		(pts
 			(xy 372.11 78.74) (xy 393.7 78.74)
 		)
 		(stroke
@@ -12658,6 +14066,26 @@
 			(type default)
 		)
 		(uuid "41505eb3-4fb6-46e0-b772-f5645da19fcc")
+	)
+	(wire
+		(pts
+			(xy 53.34 219.71) (xy 58.42 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415421f3-8e4d-4f56-9ca7-c558c15b01ed")
+	)
+	(wire
+		(pts
+			(xy 313.69 214.63) (xy 318.77 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4172a5ed-4308-4bbe-be8a-4ce4d17cee94")
 	)
 	(wire
 		(pts
@@ -12711,6 +14139,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 234.95) (xy 78.74 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4361a825-723c-4678-ac6b-42b23d5be9f9")
+	)
+	(wire
+		(pts
 			(xy 95.25 93.98) (xy 115.57 93.98)
 		)
 		(stroke
@@ -12721,13 +14159,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 180.34) (xy 78.74 196.85)
+			(xy 78.74 180.34) (xy 78.74 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "43c10d34-4a96-4586-9b08-83648e965d7b")
+	)
+	(wire
+		(pts
+			(xy 133.35 204.47) (xy 133.35 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457c1afb-f514-4384-baa2-51544fb2ee16")
 	)
 	(wire
 		(pts
@@ -12751,6 +14199,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 195.58) (xy 22.86 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c139b5-b776-4136-bf36-dc506adc7f0a")
+	)
+	(wire
+		(pts
 			(xy 322.58 238.76) (xy 320.04 238.76)
 		)
 		(stroke
@@ -12758,6 +14216,16 @@
 			(type default)
 		)
 		(uuid "46e9f64a-59d6-4a6f-b2f4-6c94a1183845")
+	)
+	(wire
+		(pts
+			(xy 317.5 172.72) (xy 321.31 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47074dcd-57ca-40af-ad9c-d126591c8929")
 	)
 	(wire
 		(pts
@@ -12781,13 +14249,33 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 215.9) (xy 58.42 236.22)
+			(xy 382.27 228.6) (xy 377.19 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cd4f34-3118-4f19-8289-81898ac237a1")
+	)
+	(wire
+		(pts
+			(xy 58.42 215.9) (xy 58.42 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "499c09f6-3605-49b4-82cd-51bb6387de1b")
+	)
+	(wire
+		(pts
+			(xy 116.84 151.13) (xy 121.92 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a35b3c4-236b-4232-bb7d-da40dcdd0621")
 	)
 	(wire
 		(pts
@@ -12801,13 +14289,63 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 231.14) (xy 93.98 236.22)
+			(xy 96.52 219.71) (xy 96.52 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab734b5-4f1b-4fc4-b90c-51ef7a3107e2")
+	)
+	(wire
+		(pts
+			(xy 93.98 231.14) (xy 93.98 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b46ac94-2aed-4e68-9fb7-62cc8ca7938e")
+	)
+	(wire
+		(pts
+			(xy 377.19 215.9) (xy 377.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b51c16a-6657-40bf-825c-38cbf5757ec5")
+	)
+	(wire
+		(pts
+			(xy 43.18 219.71) (xy 43.18 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b57f63c-64dc-4ba4-9207-723313d0f412")
+	)
+	(wire
+		(pts
+			(xy 298.45 242.57) (xy 294.64 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b642b5d-b7a0-41ca-8511-a28065418d4a")
+	)
+	(wire
+		(pts
+			(xy 133.35 151.13) (xy 133.35 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9b5512-32ba-4041-b698-989f3bd09c1d")
 	)
 	(wire
 		(pts
@@ -12871,6 +14409,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 231.14) (xy 355.6 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb70998-5488-47b7-b005-9e983249eb99")
+	)
+	(wire
+		(pts
 			(xy 114.3 215.9) (xy 114.3 205.74)
 		)
 		(stroke
@@ -12931,6 +14479,26 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 214.63) (xy 321.31 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fecbb45-e159-499a-b918-530e6d7c32bb")
+	)
+	(wire
+		(pts
+			(xy 43.18 204.47) (xy 43.18 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518aba1d-37ba-4292-bcc0-8c06b7cc8fc0")
+	)
+	(wire
+		(pts
 			(xy 60.96 210.82) (xy 62.23 210.82)
 		)
 		(stroke
@@ -12941,7 +14509,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 185.42) (xy 58.42 200.66)
+			(xy 58.42 185.42) (xy 58.42 189.23)
 		)
 		(stroke
 			(width 0)
@@ -12961,6 +14529,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 189.23) (xy 115.57 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5308da36-027c-43c3-b4f2-02c6372bc82a")
+	)
+	(wire
+		(pts
 			(xy 57.15 215.9) (xy 58.42 215.9)
 		)
 		(stroke
@@ -12971,13 +14549,33 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 161.29) (xy 92.71 167.64)
+			(xy 92.71 161.29) (xy 92.71 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "530ef431-8fb5-47f2-b8be-afbe8f9b505d")
+	)
+	(wire
+		(pts
+			(xy 43.18 204.47) (xy 48.26 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534cc24e-c49e-43f6-89bc-297675ec74d3")
+	)
+	(wire
+		(pts
+			(xy 120.65 234.95) (xy 115.57 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541d849d-d9c5-4b6e-9cf7-a1d404b4dc90")
 	)
 	(wire
 		(pts
@@ -13021,6 +14619,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 166.37) (xy 133.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d4a893-af3e-4b68-94d5-68466dc2b5be")
+	)
+	(wire
+		(pts
 			(xy 359.41 179.07) (xy 359.41 191.77)
 		)
 		(stroke
@@ -13041,7 +14649,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 185.42) (xy 40.64 200.66)
+			(xy 40.64 185.42) (xy 40.64 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13071,7 +14679,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 199.39) (xy 391.16 205.74)
+			(xy 391.16 199.39) (xy 391.16 200.66)
 		)
 		(stroke
 			(width 0)
@@ -13088,6 +14696,16 @@
 			(type default)
 		)
 		(uuid "58a71cc6-729f-40a8-9239-50ddd2c8abaf")
+	)
+	(wire
+		(pts
+			(xy 321.31 160.02) (xy 321.31 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b765ac-129f-49de-b583-eab167d5841e")
 	)
 	(wire
 		(pts
@@ -13121,6 +14739,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 204.47) (xy 113.03 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591db156-365c-4dfe-944c-64305eb9e4aa")
+	)
+	(wire
+		(pts
 			(xy 320.04 210.82) (xy 320.04 189.23)
 		)
 		(stroke
@@ -13131,6 +14759,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 158.75) (xy 339.09 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59886c8d-24a5-4f06-9b55-b216181c5084")
+	)
+	(wire
+		(pts
 			(xy 129.54 231.14) (xy 133.35 231.14)
 		)
 		(stroke
@@ -13138,6 +14776,16 @@
 			(type default)
 		)
 		(uuid "598fd159-9a42-4600-9974-7040c5c5135f")
+	)
+	(wire
+		(pts
+			(xy 392.43 215.9) (xy 392.43 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3505bf-89d1-4fc5-8356-771a242f3605")
 	)
 	(wire
 		(pts
@@ -13168,6 +14816,26 @@
 			(type default)
 		)
 		(uuid "5c64419d-0004-4304-a15b-0b32142b7467")
+	)
+	(wire
+		(pts
+			(xy 76.2 149.86) (xy 76.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d14e93c-0898-4bbe-913c-f798779d63e1")
+	)
+	(wire
+		(pts
+			(xy 341.63 231.14) (xy 345.44 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2d08d1-e090-478c-9395-1ac39fc66968")
 	)
 	(wire
 		(pts
@@ -13231,6 +14899,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 204.47) (xy 40.64 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615554b2-8bbb-4970-890b-db12a4873079")
+	)
+	(wire
+		(pts
+			(xy 303.53 214.63) (xy 308.61 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6191a5b0-09ab-4fa4-9cb2-b44f2e6c9c81")
+	)
+	(wire
+		(pts
 			(xy 322.58 210.82) (xy 320.04 210.82)
 		)
 		(stroke
@@ -13261,7 +14949,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 224.79) (xy 374.65 242.57)
+			(xy 374.65 224.79) (xy 374.65 228.6)
 		)
 		(stroke
 			(width 0)
@@ -13291,6 +14979,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 228.6) (xy 336.55 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b990dd-1ae1-41be-a8a0-89ca96a8adee")
+	)
+	(wire
+		(pts
 			(xy 304.8 227.33) (xy 317.5 227.33)
 		)
 		(stroke
@@ -13311,6 +15009,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 234.95) (xy 133.35 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64384cd0-80b8-4e97-ba86-8acfad79b485")
+	)
+	(wire
+		(pts
 			(xy 95.25 226.06) (xy 92.71 226.06)
 		)
 		(stroke
@@ -13318,6 +15026,26 @@
 			(type default)
 		)
 		(uuid "644dcb9f-c8a6-40c7-a064-21052585bdd1")
+	)
+	(wire
+		(pts
+			(xy 125.73 219.71) (xy 133.35 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647bb7a5-97c4-461b-891e-d0dfbb235486")
+	)
+	(wire
+		(pts
+			(xy 22.86 219.71) (xy 22.86 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648b898c-0e14-47b9-81d3-9eb9ef7e525f")
 	)
 	(wire
 		(pts
@@ -13331,7 +15059,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 191.77) (xy 340.36 205.74)
+			(xy 340.36 191.77) (xy 340.36 200.66)
 		)
 		(stroke
 			(width 0)
@@ -13348,6 +15076,26 @@
 			(type default)
 		)
 		(uuid "6543891f-695f-473d-b4d6-64fd39c315de")
+	)
+	(wire
+		(pts
+			(xy 318.77 200.66) (xy 318.77 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655d5c12-651a-4f42-93df-fd38c28c24db")
+	)
+	(wire
+		(pts
+			(xy 76.2 166.37) (xy 82.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65885986-428a-4041-9ce5-291a2193e07e")
 	)
 	(wire
 		(pts
@@ -13471,7 +15219,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 180.34) (xy 43.18 195.58)
+			(xy 387.35 228.6) (xy 392.43 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689c9684-5356-46d8-9aaa-3ca566b78d1a")
+	)
+	(wire
+		(pts
+			(xy 43.18 180.34) (xy 43.18 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13501,7 +15259,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 156.21) (xy 321.31 168.91)
+			(xy 321.31 156.21) (xy 321.31 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13541,7 +15299,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 215.9) (xy 133.35 231.14)
+			(xy 133.35 215.9) (xy 133.35 219.71)
 		)
 		(stroke
 			(width 0)
@@ -13551,13 +15309,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 210.82) (xy 96.52 226.06)
+			(xy 96.52 210.82) (xy 96.52 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b939aa3-20e8-4733-b7ce-621f3d350534")
+	)
+	(wire
+		(pts
+			(xy 99.06 226.06) (xy 99.06 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb30b7f-52b6-456d-8ec0-5f87b2d5a896")
 	)
 	(wire
 		(pts
@@ -13571,6 +15339,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 219.71) (xy 83.82 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0370f6-7f9f-4e53-9b5d-357e8ff8eede")
+	)
+	(wire
+		(pts
+			(xy 387.35 215.9) (xy 392.43 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c694e9f-cda8-4338-8ca4-8d60a441b8de")
+	)
+	(wire
+		(pts
 			(xy 80.01 185.42) (xy 77.47 185.42)
 		)
 		(stroke
@@ -13578,6 +15366,16 @@
 			(type default)
 		)
 		(uuid "6c987224-820e-4da3-bf30-dcc7b6e40ec4")
+	)
+	(wire
+		(pts
+			(xy 106.68 189.23) (xy 113.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccde822-c4e7-4dc7-9a81-9725c1831d22")
 	)
 	(wire
 		(pts
@@ -13598,6 +15396,16 @@
 			(type default)
 		)
 		(uuid "6e130128-ffd3-4617-97fb-14a460b7dc43")
+	)
+	(wire
+		(pts
+			(xy 40.64 219.71) (xy 40.64 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e681b9b-1df0-45f0-aa1d-258aeb834ec2")
 	)
 	(wire
 		(pts
@@ -13641,6 +15449,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 214.63) (xy 340.36 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fca3a0a-cd4e-4c55-b2a3-214607c77611")
+	)
+	(wire
+		(pts
 			(xy 118.11 163.83) (xy 139.7 163.83)
 		)
 		(stroke
@@ -13661,6 +15479,26 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 200.66) (xy 340.36 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ef44b3-b2e2-4247-8a54-48e7a39baffc")
+	)
+	(wire
+		(pts
+			(xy 303.53 200.66) (xy 309.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71276f36-9103-49e2-af29-8fcbae1061bb")
+	)
+	(wire
+		(pts
 			(xy 64.77 27.94) (xy 64.77 46.99)
 		)
 		(stroke
@@ -13668,6 +15506,16 @@
 			(type default)
 		)
 		(uuid "716a23f4-b796-4809-82b4-25ad6443565f")
+	)
+	(wire
+		(pts
+			(xy 340.36 214.63) (xy 345.44 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71afe34b-2ad7-4b62-9f58-41f52f246bd7")
 	)
 	(wire
 		(pts
@@ -13681,6 +15529,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 234.95) (xy 78.74 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fb066b-920f-49e4-9cc7-3b57014a7c76")
+	)
+	(wire
+		(pts
+			(xy 322.58 233.68) (xy 322.58 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734f8475-2741-4e1f-9693-70a30521151b")
+	)
+	(wire
+		(pts
 			(xy 288.29 163.83) (xy 287.02 163.83)
 		)
 		(stroke
@@ -13691,7 +15559,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 147.32) (xy 92.71 161.29)
+			(xy 92.71 147.32) (xy 92.71 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13708,6 +15576,16 @@
 			(type default)
 		)
 		(uuid "73882354-8ec1-4c36-92b9-7ea3c855754c")
+	)
+	(wire
+		(pts
+			(xy 113.03 189.23) (xy 113.03 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c53ead-4d6a-480a-b68c-75ec7230921c")
 	)
 	(wire
 		(pts
@@ -13741,6 +15619,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 189.23) (xy 93.98 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7582dfb2-8b10-498d-b42b-e947682b67df")
+	)
+	(wire
+		(pts
 			(xy 95.25 38.1) (xy 115.57 38.1)
 		)
 		(stroke
@@ -13751,7 +15639,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 180.34) (xy 115.57 195.58)
+			(xy 115.57 180.34) (xy 115.57 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13771,7 +15659,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 224.79) (xy 392.43 242.57)
+			(xy 392.43 224.79) (xy 392.43 228.6)
 		)
 		(stroke
 			(width 0)
@@ -13781,7 +15669,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 185.42) (xy 113.03 200.66)
+			(xy 113.03 185.42) (xy 113.03 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13801,6 +15689,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 166.37) (xy 116.84 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bde18a-a1c6-4c72-a9af-d9af64efa292")
+	)
+	(wire
+		(pts
 			(xy 111.76 231.14) (xy 113.03 231.14)
 		)
 		(stroke
@@ -13808,6 +15706,26 @@
 			(type default)
 		)
 		(uuid "7810e01d-7e3a-4455-a61a-22d66acf494b")
+	)
+	(wire
+		(pts
+			(xy 125.73 204.47) (xy 133.35 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781740b8-5ea5-420c-9daa-f58359cc11df")
+	)
+	(wire
+		(pts
+			(xy 78.74 204.47) (xy 78.74 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781ec730-9542-4347-91c1-44d56c5c1876")
 	)
 	(wire
 		(pts
@@ -13841,6 +15759,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 200.66) (xy 290.83 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a1db82-17c2-4fb2-8397-2aa729136bfb")
+	)
+	(wire
+		(pts
+			(xy 377.19 200.66) (xy 377.19 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d3244f-4dbf-47d1-abd3-28842d03f1cb")
+	)
+	(wire
+		(pts
 			(xy 59.69 38.1) (xy 77.47 38.1)
 		)
 		(stroke
@@ -13848,6 +15786,16 @@
 			(type default)
 		)
 		(uuid "7a53fd40-bbb5-4a75-8937-e9a65ba38cdb")
+	)
+	(wire
+		(pts
+			(xy 302.26 160.02) (xy 302.26 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6f280a-fc17-4b37-b526-221874912e28")
 	)
 	(wire
 		(pts
@@ -13868,6 +15816,26 @@
 			(type default)
 		)
 		(uuid "7b81177b-64f6-48ff-abc1-a5d1e7e213d3")
+	)
+	(wire
+		(pts
+			(xy 303.53 200.66) (xy 303.53 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b89b930-2358-447e-b4ca-22d1e17b1073")
+	)
+	(wire
+		(pts
+			(xy 295.91 200.66) (xy 299.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb1da24-8c6e-42f2-b8e5-3f622075b82a")
 	)
 	(wire
 		(pts
@@ -13901,6 +15869,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 151.13) (xy 113.03 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1da8bc-77ad-4256-a12a-1b1bf6f95087")
+	)
+	(wire
+		(pts
 			(xy 77.47 180.34) (xy 74.93 180.34)
 		)
 		(stroke
@@ -13908,6 +15886,16 @@
 			(type default)
 		)
 		(uuid "7d30eb14-83d4-4520-a206-8529535b7c84")
+	)
+	(wire
+		(pts
+			(xy 350.52 200.66) (xy 355.6 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7babda-25cc-4b65-97f9-2ba17b48c445")
 	)
 	(wire
 		(pts
@@ -14061,6 +16049,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 160.02) (xy 321.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82662c76-a72a-4ae4-894d-4f8285618993")
+	)
+	(wire
+		(pts
 			(xy 285.75 147.32) (xy 320.04 147.32)
 		)
 		(stroke
@@ -14101,7 +16099,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 210.82) (xy 299.72 224.79)
+			(xy 299.72 210.82) (xy 299.72 214.63)
 		)
 		(stroke
 			(width 0)
@@ -14121,6 +16119,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 189.23) (xy 40.64 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856f7108-599b-4d4b-b239-9bed1bc7b56d")
+	)
+	(wire
+		(pts
 			(xy 320.04 238.76) (xy 320.04 217.17)
 		)
 		(stroke
@@ -14128,6 +16136,16 @@
 			(type default)
 		)
 		(uuid "85ba298f-b4a8-44e1-a345-ee4f5c5dbe91")
+	)
+	(wire
+		(pts
+			(xy 22.86 189.23) (xy 22.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865ba55b-c996-489b-8bfc-1cb02a48eefa")
 	)
 	(wire
 		(pts
@@ -14141,7 +16159,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 219.71) (xy 303.53 233.68)
+			(xy 303.53 219.71) (xy 303.53 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14161,13 +16179,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 180.34) (xy 22.86 195.58)
+			(xy 368.3 200.66) (xy 374.65 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "871dbcee-50f5-467d-aef6-16f52ddf1aa2")
+		(uuid "87205507-a4ca-42b1-b812-043b3e8ace70")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f5509a-0e8c-408e-b3aa-c6b34435c258")
 	)
 	(wire
 		(pts
@@ -14271,6 +16299,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 204.47) (xy 22.86 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a47507c-3f8f-4844-b910-ee249364f265")
+	)
+	(wire
+		(pts
 			(xy 393.7 74.93) (xy 393.7 78.74)
 		)
 		(stroke
@@ -14278,6 +16316,16 @@
 			(type default)
 		)
 		(uuid "8aa73a27-1ff3-44f3-b892-37bbadb5c5eb")
+	)
+	(wire
+		(pts
+			(xy 321.31 228.6) (xy 321.31 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b07f8e3-2e25-488f-81c9-0eea5f83eec6")
 	)
 	(wire
 		(pts
@@ -14341,6 +16389,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 242.57) (xy 308.61 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcc2f66-8773-4f9f-8f6e-2d9d9603dabd")
+	)
+	(wire
+		(pts
 			(xy 298.45 224.79) (xy 299.72 224.79)
 		)
 		(stroke
@@ -14348,6 +16406,16 @@
 			(type default)
 		)
 		(uuid "8dfc3b13-4386-4a5b-88d3-c950e9b7ff06")
+	)
+	(wire
+		(pts
+			(xy 331.47 228.6) (xy 336.55 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7e7e3b-49a8-4fcc-af1c-5dd44822ba81")
 	)
 	(wire
 		(pts
@@ -14371,7 +16439,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 116.84 156.21)
+			(xy 116.84 142.24) (xy 116.84 151.13)
 		)
 		(stroke
 			(width 0)
@@ -14421,7 +16489,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 224.79) (xy 299.72 238.76)
+			(xy 53.34 189.23) (xy 58.42 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922f563f-9cf0-49f7-9cc4-c513e7c966e6")
+	)
+	(wire
+		(pts
+			(xy 299.72 224.79) (xy 299.72 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14441,13 +16519,43 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 196.85) (xy 336.55 210.82)
+			(xy 312.42 172.72) (xy 306.07 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ca421f-8766-4bf4-9b2c-7e1bf24dec36")
+	)
+	(wire
+		(pts
+			(xy 359.41 214.63) (xy 364.49 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931a9fbe-a6bd-4da8-8d89-5c4aa6354a0b")
+	)
+	(wire
+		(pts
+			(xy 336.55 196.85) (xy 336.55 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9397bf99-34ea-492e-a034-250e70ffb73c")
+	)
+	(wire
+		(pts
+			(xy 93.98 234.95) (xy 93.98 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b4721b-bb81-4a01-88c0-6ebddc50d27b")
 	)
 	(wire
 		(pts
@@ -14471,7 +16579,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 215.9) (xy 40.64 236.22)
+			(xy 115.57 204.47) (xy 120.65 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9530a402-b505-4da2-8bc3-a4549ef71a90")
+	)
+	(wire
+		(pts
+			(xy 40.64 215.9) (xy 40.64 219.71)
 		)
 		(stroke
 			(width 0)
@@ -14491,6 +16609,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 149.86) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962246fd-bdc5-4ef9-8421-0164d3969556")
+	)
+	(wire
+		(pts
 			(xy 298.45 93.98) (xy 316.23 93.98)
 		)
 		(stroke
@@ -14501,7 +16629,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 210.82) (xy 115.57 226.06)
+			(xy 115.57 210.82) (xy 115.57 219.71)
 		)
 		(stroke
 			(width 0)
@@ -14511,7 +16639,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 195.58) (xy 115.57 210.82)
+			(xy 115.57 195.58) (xy 115.57 204.47)
 		)
 		(stroke
 			(width 0)
@@ -14521,7 +16649,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 191.77) (xy 359.41 205.74)
+			(xy 359.41 191.77) (xy 359.41 200.66)
 		)
 		(stroke
 			(width 0)
@@ -14571,13 +16699,43 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 231.14) (xy 113.03 236.22)
+			(xy 386.08 200.66) (xy 391.16 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996d5ec0-e63f-48db-a04f-d1b6435afdb2")
+	)
+	(wire
+		(pts
+			(xy 359.41 200.66) (xy 359.41 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e6df54-8fee-4ad8-b2c4-aa53ab2c5286")
+	)
+	(wire
+		(pts
+			(xy 113.03 231.14) (xy 113.03 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99eb2094-89f6-46a5-9b0d-55021a1a6b3b")
+	)
+	(wire
+		(pts
+			(xy 106.68 204.47) (xy 113.03 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1f157a-b428-4142-9328-fe8d836be3bd")
 	)
 	(wire
 		(pts
@@ -14588,6 +16746,16 @@
 			(type default)
 		)
 		(uuid "9a3a88cd-290c-4318-b81b-c380a1e15740")
+	)
+	(wire
+		(pts
+			(xy 115.57 219.71) (xy 120.65 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bda2041-02ef-488c-8c82-5e9e8e78e014")
 	)
 	(wire
 		(pts
@@ -14631,6 +16799,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 228.6) (xy 392.43 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3b9494-8d57-4f86-962e-0ac34dfdb203")
+	)
+	(wire
+		(pts
 			(xy 115.57 93.98) (xy 137.16 93.98)
 		)
 		(stroke
@@ -14638,6 +16816,16 @@
 			(type default)
 		)
 		(uuid "9e74c7ca-6ae6-442b-94e7-d2cf59ba9d11")
+	)
+	(wire
+		(pts
+			(xy 101.6 234.95) (xy 99.06 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e80ee52-06bc-4491-9ef1-6e2455dfc961")
 	)
 	(wire
 		(pts
@@ -14658,6 +16846,16 @@
 			(type default)
 		)
 		(uuid "9fd584d7-a23d-4c32-82e6-23a7abf26f47")
+	)
+	(wire
+		(pts
+			(xy 335.28 158.75) (xy 339.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff28fcc-ced7-4908-814a-9acb860aa2f3")
 	)
 	(wire
 		(pts
@@ -14701,13 +16899,53 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 196.85) (xy 374.65 210.82)
+			(xy 306.07 160.02) (xy 309.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c00577-8069-484e-b8c1-34bab3126590")
+	)
+	(wire
+		(pts
+			(xy 332.74 200.66) (xy 336.55 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dbef67-71d8-4823-b390-5800d1530794")
+	)
+	(wire
+		(pts
+			(xy 374.65 196.85) (xy 374.65 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1f0c147-48b0-4fc3-a3e7-bfc7a847e04b")
+	)
+	(wire
+		(pts
+			(xy 303.53 214.63) (xy 303.53 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a243336f-dd88-4fce-b7c6-f03d63a1aa6a")
+	)
+	(wire
+		(pts
+			(xy 336.55 172.72) (xy 339.09 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a283b9e7-5f94-481c-aceb-28a7f8d7adce")
 	)
 	(wire
 		(pts
@@ -14738,6 +16976,16 @@
 			(type default)
 		)
 		(uuid "a34714a7-37c8-497d-91d7-3dc9552c9d66")
+	)
+	(wire
+		(pts
+			(xy 369.57 228.6) (xy 374.65 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3782be2-2f56-4f9a-b1cc-3446c412881e")
 	)
 	(wire
 		(pts
@@ -14788,6 +17036,16 @@
 			(type default)
 		)
 		(uuid "a53c3d90-1e98-44e6-975a-9de8dd188696")
+	)
+	(wire
+		(pts
+			(xy 133.35 189.23) (xy 133.35 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59befad-055b-49bf-8c94-8e04e08f9d72")
 	)
 	(wire
 		(pts
@@ -14861,6 +17119,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 214.63) (xy 299.72 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a7cf01-3667-4230-b38b-19ebbb33c1dc")
+	)
+	(wire
+		(pts
 			(xy 137.16 71.12) (xy 137.16 74.93)
 		)
 		(stroke
@@ -14881,7 +17149,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 224.79) (xy 318.77 238.76)
+			(xy 318.77 224.79) (xy 318.77 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14891,7 +17159,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 185.42) (xy 76.2 200.66)
+			(xy 298.45 238.76) (xy 298.45 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aace6c3e-dbad-40b1-b7e5-bcca43629977")
+	)
+	(wire
+		(pts
+			(xy 60.96 204.47) (xy 66.04 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0e52d4-52e9-4bf0-9d79-9e219ffde24f")
+	)
+	(wire
+		(pts
+			(xy 76.2 185.42) (xy 76.2 189.23)
 		)
 		(stroke
 			(width 0)
@@ -14941,7 +17229,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 210.82) (xy 392.43 224.79)
+			(xy 392.43 210.82) (xy 392.43 215.9)
 		)
 		(stroke
 			(width 0)
@@ -14958,6 +17246,26 @@
 			(type default)
 		)
 		(uuid "adb63cf7-0fc8-4d65-9f30-a47d2a89a68d")
+	)
+	(wire
+		(pts
+			(xy 303.53 233.68) (xy 303.53 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb69c88-69f7-4725-9164-d97f60b114fc")
+	)
+	(wire
+		(pts
+			(xy 133.35 166.37) (xy 133.35 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbe891b-3f50-43aa-b4ac-e3c63b8405de")
 	)
 	(wire
 		(pts
@@ -15041,6 +17349,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 200.66) (xy 321.31 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8ea64c-7dbb-4775-9865-8d4fcd9ba7df")
+	)
+	(wire
+		(pts
 			(xy 41.91 52.07) (xy 41.91 55.88)
 		)
 		(stroke
@@ -15091,6 +17409,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 172.72) (xy 306.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15acdb4-84de-4e13-b1d1-ca2aaf858f87")
+	)
+	(wire
+		(pts
 			(xy 116.84 185.42) (xy 114.3 185.42)
 		)
 		(stroke
@@ -15098,6 +17426,16 @@
 			(type default)
 		)
 		(uuid "b199395f-eea5-43f9-96a6-5047afd1f10b")
+	)
+	(wire
+		(pts
+			(xy 323.85 158.75) (xy 323.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220c686-b8ca-48ae-ad45-1a18e0cfae78")
 	)
 	(wire
 		(pts
@@ -15121,13 +17459,13 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 238.76) (xy 336.55 242.57)
+			(xy 76.2 219.71) (xy 76.2 236.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b47757c4-0245-4200-8c3e-516ab90529d7")
+		(uuid "b656eb0d-73b3-4ecc-af9a-33c9afb7c07e")
 	)
 	(wire
 		(pts
@@ -15161,6 +17499,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 219.71) (xy 60.96 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8204988-6e52-428c-a60d-141df99a5f3d")
+	)
+	(wire
+		(pts
 			(xy 74.93 185.42) (xy 76.2 185.42)
 		)
 		(stroke
@@ -15181,13 +17529,23 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 205.74) (xy 377.19 219.71)
+			(xy 377.19 205.74) (xy 377.19 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9234a92-925d-4794-99ed-7e8780140a1b")
+	)
+	(wire
+		(pts
+			(xy 88.9 219.71) (xy 93.98 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9924846-174f-45cc-828f-6ecaa63e6cc3")
 	)
 	(wire
 		(pts
@@ -15198,6 +17556,16 @@
 			(type default)
 		)
 		(uuid "b9aa218a-fe46-4ff2-ade7-4b04b524fef0")
+	)
+	(wire
+		(pts
+			(xy 92.71 149.86) (xy 92.71 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4c79c0-6e37-4381-abbe-6c5c912706ff")
 	)
 	(wire
 		(pts
@@ -15221,6 +17589,36 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 189.23) (xy 43.18 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0ae55a-efde-48d6-a8c0-a9b0be3290c2")
+	)
+	(wire
+		(pts
+			(xy 287.02 171.45) (xy 287.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7383e8-b5fb-4426-a507-7e4fc64e7c3b")
+	)
+	(wire
+		(pts
+			(xy 113.03 234.95) (xy 113.03 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbeb02da-fdb6-4513-8588-9f85fa07b971")
+	)
+	(wire
+		(pts
 			(xy 280.67 148.59) (xy 300.99 148.59)
 		)
 		(stroke
@@ -15238,6 +17636,26 @@
 			(type default)
 		)
 		(uuid "bc76cd4a-cb88-4b24-88cc-5185acccaaf6")
+	)
+	(wire
+		(pts
+			(xy 93.98 219.71) (xy 93.98 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd31106d-a7ce-4e34-af7f-18df70ef216d")
+	)
+	(wire
+		(pts
+			(xy 115.57 204.47) (xy 115.57 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdffca2b-ba4c-41d8-bbfc-03eab0d8020f")
 	)
 	(wire
 		(pts
@@ -15261,13 +17679,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 201.93) (xy 93.98 215.9)
+			(xy 93.98 201.93) (xy 93.98 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bebc4869-db70-415b-ba56-f92e9e4ccfde")
+	)
+	(wire
+		(pts
+			(xy 364.49 228.6) (xy 359.41 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed19069-bed2-4638-96fa-da6e71bfa05c")
+	)
+	(wire
+		(pts
+			(xy 133.35 219.71) (xy 133.35 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed7aff1-fb4f-41a9-ad3b-04b48ccf018a")
 	)
 	(wire
 		(pts
@@ -15278,6 +17716,16 @@
 			(type default)
 		)
 		(uuid "befd4401-00e7-4e17-8c9e-c5b987d1da4e")
+	)
+	(wire
+		(pts
+			(xy 341.63 219.71) (xy 341.63 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9dc99f-3d8b-42d8-8968-f2215c2d8b88")
 	)
 	(wire
 		(pts
@@ -15311,6 +17759,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 234.95) (xy 133.35 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f554d5-b509-4847-a535-583def90fbc8")
+	)
+	(wire
+		(pts
 			(xy 373.38 196.85) (xy 374.65 196.85)
 		)
 		(stroke
@@ -15321,7 +17779,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 210.82) (xy 318.77 224.79)
+			(xy 318.77 210.82) (xy 318.77 214.63)
 		)
 		(stroke
 			(width 0)
@@ -15351,6 +17809,26 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 228.6) (xy 374.65 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fd0287-1f8c-4d31-a3e3-d493d31b0f22")
+	)
+	(wire
+		(pts
+			(xy 48.26 219.71) (xy 43.18 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24f3338-9488-4664-8603-6467912b3d7b")
+	)
+	(wire
+		(pts
 			(xy 375.92 213.36) (xy 358.14 213.36)
 		)
 		(stroke
@@ -15368,6 +17846,56 @@
 			(type default)
 		)
 		(uuid "c3a0a8fe-201f-40c0-a8f9-c8d8f2243476")
+	)
+	(wire
+		(pts
+			(xy 76.2 189.23) (xy 76.2 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c435c669-d3bb-46a3-b584-4743aa729069")
+	)
+	(wire
+		(pts
+			(xy 323.85 158.75) (xy 330.2 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46a008e-6b91-4d67-9fbd-cca12c4de70d")
+	)
+	(wire
+		(pts
+			(xy 78.74 189.23) (xy 78.74 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c525d5d7-8b91-4fde-80d3-bfc71dd119e9")
+	)
+	(wire
+		(pts
+			(xy 306.07 160.02) (xy 306.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c553e0ad-26a7-4edf-b546-540b8b7df28e")
+	)
+	(wire
+		(pts
+			(xy 336.55 214.63) (xy 336.55 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55807f9-1b00-4564-a3ea-24345daa1210")
 	)
 	(wire
 		(pts
@@ -15421,6 +17949,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 234.95) (xy 93.98 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68912cd-3417-4f68-9db7-62d5b827168f")
+	)
+	(wire
+		(pts
 			(xy 285.75 31.75) (xy 285.75 50.8)
 		)
 		(stroke
@@ -15441,7 +17979,17 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 224.79) (xy 336.55 238.76)
+			(xy 66.04 219.71) (xy 60.96 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d815d7-d497-4594-b5dc-60712ce118ef")
+	)
+	(wire
+		(pts
+			(xy 336.55 224.79) (xy 336.55 228.6)
 		)
 		(stroke
 			(width 0)
@@ -15451,7 +17999,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 113.03 161.29)
+			(xy 113.03 147.32) (xy 113.03 151.13)
 		)
 		(stroke
 			(width 0)
@@ -15491,6 +18039,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 200.66) (xy 318.77 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f5dd56-ec44-45d5-b89a-e0d2c8e9de4e")
+	)
+	(wire
+		(pts
 			(xy 24.13 55.88) (xy 41.91 55.88)
 		)
 		(stroke
@@ -15511,16 +18069,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 195.58) (xy 22.86 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab49da9-5608-4b73-ad40-efe70274798e")
-	)
-	(wire
-		(pts
 			(xy 372.11 59.69) (xy 393.7 59.69)
 		)
 		(stroke
@@ -15528,6 +18076,16 @@
 			(type default)
 		)
 		(uuid "cb8c9ae4-0214-4205-9fca-2a5c201a6ffa")
+	)
+	(wire
+		(pts
+			(xy 355.6 214.63) (xy 355.6 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcc8360-7158-4a03-bd05-51f77290b7e0")
 	)
 	(wire
 		(pts
@@ -15611,7 +18169,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 219.71) (xy 284.48 233.68)
+			(xy 284.48 219.71) (xy 284.48 228.6)
 		)
 		(stroke
 			(width 0)
@@ -15631,7 +18189,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 191.77) (xy 377.19 205.74)
+			(xy 377.19 191.77) (xy 377.19 200.66)
 		)
 		(stroke
 			(width 0)
@@ -15681,13 +18239,53 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 185.42) (xy 133.35 200.66)
+			(xy 299.72 200.66) (xy 299.72 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07e5a15-04ce-4e00-989a-19b90f9720b2")
+	)
+	(wire
+		(pts
+			(xy 93.98 204.47) (xy 93.98 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bc44a1-6453-4ab7-8b46-3b428b51dcd4")
+	)
+	(wire
+		(pts
+			(xy 336.55 200.66) (xy 336.55 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dd89bb-4f90-4b3e-abaa-71e125c181bf")
+	)
+	(wire
+		(pts
+			(xy 133.35 185.42) (xy 133.35 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0e51654-177e-429e-97a0-1051f4f8b349")
+	)
+	(wire
+		(pts
+			(xy 96.52 204.47) (xy 101.6 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1699347-1aea-402b-82c0-4da9d4fd8416")
 	)
 	(polyline
 		(pts
@@ -15721,6 +18319,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 160.02) (xy 287.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f3f756-919d-4586-9444-bffc88940d36")
+	)
+	(wire
+		(pts
 			(xy 39.37 200.66) (xy 40.64 200.66)
 		)
 		(stroke
@@ -15728,6 +18336,16 @@
 			(type default)
 		)
 		(uuid "d3614e32-8137-40e7-b820-f55dd0fe640d")
+	)
+	(wire
+		(pts
+			(xy 96.52 204.47) (xy 96.52 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38131cd-2267-4ffd-839e-9331e4dbfd63")
 	)
 	(wire
 		(pts
@@ -15861,6 +18479,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 200.66) (xy 363.22 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd0d69b-67db-4225-b949-6b24bdf960c3")
+	)
+	(wire
+		(pts
 			(xy 115.57 91.44) (xy 115.57 93.98)
 		)
 		(stroke
@@ -15981,6 +18609,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 228.6) (xy 359.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0064a61-e2bc-44e7-b9f0-d8530975f9fa")
+	)
+	(wire
+		(pts
 			(xy 354.33 210.82) (xy 355.6 210.82)
 		)
 		(stroke
@@ -16021,6 +18659,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 228.6) (xy 318.77 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ca8d27-ca04-496d-be1e-695d9ff06754")
+	)
+	(wire
+		(pts
 			(xy 77.47 74.93) (xy 95.25 74.93)
 		)
 		(stroke
@@ -16041,7 +18689,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 191.77) (xy 284.48 205.74)
+			(xy 284.48 191.77) (xy 284.48 200.66)
 		)
 		(stroke
 			(width 0)
@@ -16121,6 +18769,36 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 214.63) (xy 299.72 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c70e3d-3a13-4f7e-a18d-db36f04317b1")
+	)
+	(wire
+		(pts
+			(xy 340.36 200.66) (xy 345.44 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fe1fcb-4302-407e-8488-04cfe994ec83")
+	)
+	(wire
+		(pts
+			(xy 284.48 214.63) (xy 284.48 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e403e5a5-91be-4ff2-96a6-39f365fb5c2b")
+	)
+	(wire
+		(pts
 			(xy 59.69 190.5) (xy 59.69 180.34)
 		)
 		(stroke
@@ -16178,6 +18856,16 @@
 			(type default)
 		)
 		(uuid "e5b58ea0-cf50-40e3-8cd2-d15569249f29")
+	)
+	(wire
+		(pts
+			(xy 322.58 242.57) (xy 326.39 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bf2522-5c9e-46b3-9f47-b38a200abbdd")
 	)
 	(wire
 		(pts
@@ -16271,13 +18959,33 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 219.71) (xy 321.31 233.68)
+			(xy 321.31 219.71) (xy 321.31 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8ab012b-9de8-419d-91b3-482fd9b5e879")
+	)
+	(wire
+		(pts
+			(xy 331.47 172.72) (xy 323.85 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bb8f0b-4d59-4849-873a-a1f186f2a66a")
+	)
+	(wire
+		(pts
+			(xy 350.52 231.14) (xy 355.6 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9aab513-60a8-4650-ab79-f2b5c80bf478")
 	)
 	(wire
 		(pts
@@ -16321,6 +19029,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 214.63) (xy 374.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8ca472-a253-460b-9309-7f11901098b2")
+	)
+	(wire
+		(pts
 			(xy 74.93 200.66) (xy 76.2 200.66)
 		)
 		(stroke
@@ -16331,7 +19049,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 200.66) (xy 58.42 215.9)
+			(xy 58.42 200.66) (xy 58.42 204.47)
 		)
 		(stroke
 			(width 0)
@@ -16351,7 +19069,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 200.66) (xy 40.64 215.9)
+			(xy 35.56 189.23) (xy 40.64 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0b0fea-9155-4fc9-84c9-70bcd5478442")
+	)
+	(wire
+		(pts
+			(xy 40.64 200.66) (xy 40.64 204.47)
 		)
 		(stroke
 			(width 0)
@@ -16361,7 +19089,27 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 142.24) (xy 97.79 156.21)
+			(xy 78.74 204.47) (xy 83.82 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb4f7c3-c395-4f08-bb3b-4d24890066d1")
+	)
+	(wire
+		(pts
+			(xy 284.48 228.6) (xy 284.48 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede5205b-ab22-4cf9-ba0e-65f49c173d93")
+	)
+	(wire
+		(pts
+			(xy 97.79 142.24) (xy 97.79 151.13)
 		)
 		(stroke
 			(width 0)
@@ -16381,6 +19129,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 166.37) (xy 113.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee69e809-36c8-435e-a439-8643cde40166")
+	)
+	(wire
+		(pts
 			(xy 304.8 199.39) (xy 317.5 199.39)
 		)
 		(stroke
@@ -16391,7 +19149,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 200.66) (xy 133.35 215.9)
+			(xy 133.35 200.66) (xy 133.35 204.47)
 		)
 		(stroke
 			(width 0)
@@ -16411,7 +19169,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 205.74) (xy 284.48 219.71)
+			(xy 30.48 189.23) (xy 22.86 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc32f96-513f-4394-aa84-bd3b49863203")
+	)
+	(wire
+		(pts
+			(xy 284.48 205.74) (xy 284.48 214.63)
 		)
 		(stroke
 			(width 0)
@@ -16431,13 +19199,33 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 151.13) (xy 323.85 163.83)
+			(xy 323.85 151.13) (xy 323.85 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f06839fb-479c-4633-9e47-8aa3d5c260ab")
+	)
+	(wire
+		(pts
+			(xy 43.18 189.23) (xy 43.18 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0961724-22f1-41b6-ac18-901588c51f5e")
+	)
+	(wire
+		(pts
+			(xy 92.71 166.37) (xy 92.71 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c87325-a703-4717-9e81-0bc40cbe078d")
 	)
 	(wire
 		(pts
@@ -16451,7 +19239,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 195.58) (xy 96.52 210.82)
+			(xy 96.52 195.58) (xy 96.52 204.47)
 		)
 		(stroke
 			(width 0)
@@ -16471,16 +19259,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 200.66) (xy 113.03 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f184087a-e620-4b44-824e-852632633ad9")
-	)
-	(wire
-		(pts
 			(xy 306.07 151.13) (xy 307.34 151.13)
 		)
 		(stroke
@@ -16488,6 +19266,16 @@
 			(type default)
 		)
 		(uuid "f20fba3a-7dd8-47de-a77e-4bde17958218")
+	)
+	(wire
+		(pts
+			(xy 294.64 228.6) (xy 299.72 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22fc5da-4a78-4196-9048-1acecb60782d")
 	)
 	(wire
 		(pts
@@ -16571,6 +19359,46 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 151.13) (xy 113.03 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dd0c8c-37b3-428c-a436-fdebbbb084c3")
+	)
+	(wire
+		(pts
+			(xy 115.57 189.23) (xy 120.65 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f515606d-c5a9-4785-a8f0-8aaee01ef1bf")
+	)
+	(wire
+		(pts
+			(xy 71.12 219.71) (xy 76.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f557954e-ffbb-4b48-be55-c8a81c518d6a")
+	)
+	(wire
+		(pts
+			(xy 71.12 189.23) (xy 76.2 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5999fd3-e4af-49cf-8e0d-a90278f74efe")
+	)
+	(wire
+		(pts
 			(xy 62.23 205.74) (xy 74.93 205.74)
 		)
 		(stroke
@@ -16581,13 +19409,43 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 200.66) (xy 76.2 215.9)
+			(xy 106.68 219.71) (xy 113.03 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f615be96-9491-4f5c-816b-1d68e0d05c0e")
+	)
+	(wire
+		(pts
+			(xy 321.31 228.6) (xy 326.39 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62cd1c5-f447-481f-b0dd-3c94c0bfd8e9")
+	)
+	(wire
+		(pts
+			(xy 76.2 200.66) (xy 76.2 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f637ab0c-c438-422b-8b8f-cbf04a1bf06a")
+	)
+	(wire
+		(pts
+			(xy 355.6 200.66) (xy 355.6 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63f5076-21b1-4bb8-836b-ddf8baa71c65")
 	)
 	(wire
 		(pts
@@ -16641,13 +19499,23 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 191.77) (xy 303.53 205.74)
+			(xy 303.53 191.77) (xy 303.53 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7c23cf2-c4b9-484f-a54a-fcffa83a657a")
+	)
+	(wire
+		(pts
+			(xy 295.91 160.02) (xy 302.26 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ef378a-920d-4edc-84ed-6dbd08bb3193")
 	)
 	(wire
 		(pts
@@ -16691,6 +19559,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 189.23) (xy 58.42 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9efffd8-fe80-4765-aca7-17cdff97383c")
+	)
+	(wire
+		(pts
 			(xy 59.69 55.88) (xy 77.47 55.88)
 		)
 		(stroke
@@ -16698,6 +19576,16 @@
 			(type default)
 		)
 		(uuid "fa0737c3-4afa-4570-8957-c374500aaf59")
+	)
+	(wire
+		(pts
+			(xy 60.96 189.23) (xy 66.04 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa77175e-f956-4dbd-b253-8fa8463dbdb7")
 	)
 	(wire
 		(pts
@@ -16741,13 +19629,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 231.14) (xy 133.35 236.22)
+			(xy 133.35 231.14) (xy 133.35 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb880183-93dd-4bfe-8aba-d0231159d4db")
+	)
+	(wire
+		(pts
+			(xy 331.47 214.63) (xy 336.55 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcd88de-cfd8-4cf8-a515-93785477e7df")
 	)
 	(wire
 		(pts
@@ -16801,6 +19699,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 156.21) (xy 76.2 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd01e819-db58-4c4f-8e28-a7976179cd63")
+	)
+	(wire
+		(pts
 			(xy 29.21 17.78) (xy 29.21 27.94)
 		)
 		(stroke
@@ -16848,6 +19756,16 @@
 			(type default)
 		)
 		(uuid "ffc0d9a7-512b-4790-abac-8614e0762194")
+	)
+	(wire
+		(pts
+			(xy 284.48 228.6) (xy 289.56 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff1a1f9-3101-4bf6-bccf-05c0689504d9")
 	)
 	(global_label "col2_L"
 		(shape input)
@@ -18519,6 +21437,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "028bc4bd-59d0-4062-86c5-2363d8b952e4")
+		(property "Reference" "C25"
+			(at 87.63 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 86.3663 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee3c1ab0-4828-4af6-ad13-b0253c3e83ca")
+		)
+		(pin "2"
+			(uuid "583e5acf-9c22-4420-b480-f140921cb7b9")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 133.35 52.07 180)
 		(unit 1)
@@ -18752,6 +21738,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "070a9de6-c965-4df0-ae69-f7c9899891cc")
+		(property "Reference" "C2"
+			(at 108.458 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 93.726 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c46e275-1140-4498-b7be-85c2b3053ee3")
+		)
+		(pin "2"
+			(uuid "048c17e8-ad5c-476e-874e-f00b4e194b16")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -19280,10 +22334,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b9d4b9c-a75f-4050-aa20-943eea3cb5f9")
 		(property "Reference" "led15"
-			(at 68.58 190.5 0)
+			(at 69.088 198.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19296,6 +22349,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -19361,10 +22415,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ecf663a-1ff3-4e87-a3d4-c140bfbd9802")
 		(property "Reference" "led46"
-			(at 384.81 214.63 0)
+			(at 384.81 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19377,6 +22430,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -19442,10 +22496,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f5c6510-510f-4cf6-a108-29b34fea9684")
 		(property "Reference" "led50"
-			(at 311.15 214.63 0)
+			(at 311.15 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19458,6 +22511,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -19652,6 +22706,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "H_LEFT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 328.93 228.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13167ab2-f541-42fe-8973-7c804ec24181")
+		(property "Reference" "C49"
+			(at 332.232 228.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 328.9237 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 328.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 328.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9e21dab-6662-42ca-b851-56fd16a8a5e3")
+		)
+		(pin "2"
+			(uuid "5c265eb6-00f5-4b46-9f01-b999583227f5")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -19990,6 +23113,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "160c82bb-b561-4b9b-8f7c-0fab11083579")
+		(property "Reference" "C22"
+			(at 89.408 218.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 86.3663 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.36 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb4e6efe-98db-4961-b851-0e4fd66d873b")
+		)
+		(pin "2"
+			(uuid "fba08163-f530-4f99-a5e8-db99dd5c0810")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 312.42 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16423924-bc50-41ae-a81e-13de3ffd5d94")
+		(property "Reference" "C38"
+			(at 314.96 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 312.4137 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 312.42 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 312.42 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2553be32-339c-41d8-bd79-fce1cfdba3b7")
+		)
+		(pin "2"
+			(uuid "1e8d3128-fb6c-4f55-ae0e-89a4704fa49d")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 182.88 270)
 		(unit 1)
@@ -20206,6 +23466,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 125.73 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "184e99eb-80d6-4c7e-ba83-23889c5aa0a9")
+		(property "Reference" "C6"
+			(at 128.27 167.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 125.7363 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "624fa6c2-a751-4d17-afee-d07e234afcd0")
+		)
+		(pin "2"
+			(uuid "2d98d2db-ae29-4639-b0f6-202490eb6ac5")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 251.46 80.01 0)
 		(unit 1)
@@ -20364,10 +23692,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1af6ffe8-cab0-49a1-86f7-fc86cc253f13")
 		(property "Reference" "led25"
-			(at 86.36 220.98 0)
+			(at 86.614 228.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20380,6 +23707,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -20431,6 +23759,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_L15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b3dba2d-3021-42b2-853c-aa4d5a3dc174")
+		(property "Reference" "C14"
+			(at 55.118 203.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 50.8063 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 50.8 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec6986e-7735-4488-9fd6-37a8909db8f4")
+		)
+		(pin "2"
+			(uuid "9daa2914-0ff7-4981-9725-5e01539e9d8b")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -20508,6 +23904,74 @@
 			(project ""
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "PSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba859b9-7106-4852-a4a0-0c47ff173cb1")
+		(property "Reference" "C7"
+			(at 36.322 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 33.0263 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9cfebf-31a9-4be9-99a0-b521a3b2e962")
+		)
+		(pin "2"
+			(uuid "95b56285-66f2-4072-8d6d-7e1a7e54c341")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20746,6 +24210,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1de85eb5-797e-41d0-9daa-388f87f57696")
+		(property "Reference" "C24"
+			(at 127 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 123.1963 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45df116e-c961-4c6d-84bc-d2ac9fac6c34")
+		)
+		(pin "2"
+			(uuid "11baf039-8c4f-456e-b7d8-396a74b8c03b")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 149.86 34.29 90)
 		(unit 1)
@@ -20891,6 +24423,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 347.98 214.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22515082-e00a-434c-9376-79ea591609b4")
+		(property "Reference" "C42"
+			(at 350.266 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 347.9737 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 347.98 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 347.98 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7ce5b46-a219-4855-a80b-cb504b4768c2")
+		)
+		(pin "2"
+			(uuid "2ba165e2-a0a9-492d-8830-5e5e2101845a")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SK6821MINI-E_facedown_5")
 		(lib_id "philoctetes:SK6821MINI-E_facedown")
 		(at 328.93 222.25 0)
@@ -20899,10 +24500,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2267cb01-fd97-4335-b62b-d3a988ec2d6e")
 		(property "Reference" "led49"
-			(at 328.93 214.63 0)
+			(at 329.184 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20915,6 +24515,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -21059,6 +24660,143 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 314.96 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25541344-47d3-4883-8a6a-22dee5c2c625")
+		(property "Reference" "C32"
+			(at 318.262 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 303.276 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c493a492-aca6-4da6-8af1-6ed74718f2bf")
+		)
+		(pin "2"
+			(uuid "c9494408-def8-4892-a73c-4c5ce2910285")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 311.15 214.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26bd75d3-70cb-435d-a825-88a2dfcf8375")
+		(property "Reference" "C44"
+			(at 314.198 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 311.1437 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 311.15 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 311.15 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a33993f-d56b-4ae1-8bc6-0b0e86f0938f")
+		)
+		(pin "2"
+			(uuid "dc156ffe-5ac4-42e1-b600-1fa165e50639")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -21550,10 +25288,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33dceb0a-76ae-4ed0-a0c7-5cece4a6dece")
 		(property "Reference" "led42"
-			(at 347.98 200.66 0)
+			(at 348.234 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21566,6 +25303,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -21918,6 +25656,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36f0c1f8-27a3-4787-b97f-8d2a6078621b")
+		(property "Reference" "C30"
+			(at 296.672 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 279.146 160.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 293.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1069bf2c-582a-4512-8270-07700c85373e")
+		)
+		(pin "2"
+			(uuid "6b2b546d-3c8e-4a68-8311-e6e445775cd1")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 60.96 175.26 0)
 		(unit 1)
@@ -22212,6 +26019,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c4ebec0-e394-41c7-a2b9-ad07bfb2536d")
+		(property "Reference" "C39"
+			(at 296.418 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 293.3637 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 293.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17417965-b937-48bc-aab3-6fa479fe5483")
+		)
+		(pin "2"
+			(uuid "2b83712c-0291-49c1-9e0f-fa09fad71e87")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 294.64 74.93 180)
 		(unit 1)
@@ -22378,6 +26254,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f494cb1-0c82-4083-84f9-0e76897d5b41")
+		(property "Reference" "C12"
+			(at 127 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 123.1963 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f207d50-3fa2-491a-9a0d-9b2f86b10f33")
+		)
+		(pin "2"
+			(uuid "43ad14f7-268e-45bf-a7c3-8fdc1593fcea")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 312.42 36.83 180)
 		(unit 1)
@@ -22479,10 +26423,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3fd03b6f-5c99-459b-bca1-41f54141c8d3")
 		(property "Reference" "led53"
-			(at 311.15 228.6 0)
+			(at 311.15 235.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22495,6 +26438,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -22619,6 +26563,74 @@
 			(project ""
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "418d23dd-1b8b-4416-ae9e-fac607482506")
+		(property "Reference" "C27"
+			(at 123.952 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 123.1963 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 123.19 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92bb24d6-a657-4242-8b0f-8b62e040364b")
+		)
+		(pin "2"
+			(uuid "d2b86978-b61d-4f84-b430-fd876cdc4ed4")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -22798,10 +26810,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "437dc3e0-045e-47ad-a131-b9bc3d0a5c59")
 		(property "Reference" "led4"
-			(at 85.09 151.13 0)
+			(at 85.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22814,6 +26825,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -22879,10 +26891,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "43a373cf-e97b-4bfc-83b1-2789db907f89")
 		(property "Reference" "led21"
-			(at 68.58 205.74 0)
+			(at 68.326 213.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22895,6 +26906,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -22946,6 +26958,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_L21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 292.1 228.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44d81287-b598-4bb8-844c-06074208e14b")
+		(property "Reference" "C51"
+			(at 295.656 228.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 292.0937 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 292.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 292.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee09cf9d-781e-4105-9219-ff52642df369")
+		)
+		(pin "2"
+			(uuid "926e959b-a048-477b-8ca6-1bc580eb5884")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -23024,6 +27105,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 312.42 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a56649-e8e4-48da-8ce2-672bee0d8bf6")
+		(property "Reference" "C29"
+			(at 315.468 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 324.104 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 312.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 312.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08807a4c-e628-45ec-8ef9-3540907e3dac")
+		)
+		(pin "2"
+			(uuid "23fcc198-dc88-4313-9092-e15da79bd81f")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SK6821MINI-E_facedown_9")
 		(lib_id "philoctetes:SK6821MINI-E_facedown")
 		(at 123.19 198.12 0)
@@ -23032,10 +27182,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "478b0b11-08f5-4ab5-abba-a8566ab812f6")
 		(property "Reference" "led17"
-			(at 123.19 190.5 0)
+			(at 123.444 197.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23048,6 +27197,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -23331,10 +27481,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4af42fe2-57cd-48be-a6ce-551de70e9708")
 		(property "Reference" "led43"
-			(at 328.93 200.66 0)
+			(at 328.93 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23347,6 +27496,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -23398,6 +27548,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b204c81-1fbe-4513-bf87-ed75d8def423")
+		(property "Reference" "C8"
+			(at 52.832 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 50.8063 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 50.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9727672a-1c9f-4bab-bbc1-10844a4ccf83")
+		)
+		(pin "2"
+			(uuid "c9704d4d-3883-4f89-a5da-125860785a2e")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -23475,6 +27693,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 384.81 228.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc987a8-81b2-467c-a36b-d29a44e41166")
+		(property "Reference" "C46"
+			(at 385.064 231.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 384.8037 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 384.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 384.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "094dde49-e4af-4e8f-a4ac-1b44457c20e2")
+		)
+		(pin "2"
+			(uuid "2fd2e8b6-9863-4b9f-bbcd-0f0acfdc1e74")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ed186b4-cae0-4206-a148-f70a9ada0630")
+		(property "Reference" "C23"
+			(at 108.204 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 104.1463 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 104.14 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cd1f564-4c73-49d9-b6a2-90a9214d8c8c")
+		)
+		(pin "2"
+			(uuid "30ab9da3-6c77-49c9-87a4-07302df116e6")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SK6821MINI-E_facedown_11")
 		(lib_id "philoctetes:SK6821MINI-E_facedown")
 		(at 33.02 198.12 0)
@@ -23483,10 +27838,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f5dc927-c1eb-44d6-ad62-dee6e37e5090")
 		(property "Reference" "led13"
-			(at 33.02 190.5 0)
+			(at 33.02 198.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23499,6 +27853,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -23624,6 +27979,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 311.15 228.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50e2a0cd-46e7-497c-ad31-f49b587a77a2")
+		(property "Reference" "C50"
+			(at 314.452 227.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 311.1437 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 311.15 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 311.15 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb277cb0-03fa-4cfa-8f76-13ad7cd3a7de")
+		)
+		(pin "2"
+			(uuid "0d3cd10e-4d2e-4d3e-8caf-12806bb455f2")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -24216,6 +28640,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56148b36-c696-4429-9f7b-4fcc70dc6717")
+		(property "Reference" "C3"
+			(at 127 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 138.684 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a735e0e6-d981-4446-9a73-b6493d3994bf")
+		)
+		(pin "2"
+			(uuid "7837e13d-d53e-45b4-a12d-868f88ee6b47")
+		)
+		(instances
+			(project ""
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 321.31 179.07 270)
 		(unit 1)
@@ -24645,10 +29137,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5bd00257-c830-4c4f-84e4-3f4d5b01f0ea")
 		(property "Reference" "led28"
-			(at 331.47 146.05 0)
+			(at 331.724 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24661,6 +29152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -24891,10 +29383,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f69bfc1-aff9-4043-9912-7224fd07f513")
 		(property "Reference" "led24"
-			(at 123.19 205.74 0)
+			(at 123.698 213.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24907,6 +29398,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -24972,10 +29464,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f89b7b4-5863-4d6e-b56d-d8fbf6b5ffe4")
 		(property "Reference" "led20"
-			(at 50.8 205.74 0)
+			(at 51.308 212.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24988,6 +29479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -25039,6 +29531,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_L22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61999022-d601-48fe-ac4b-d0ea71d956cf")
+		(property "Reference" "C9"
+			(at 71.374 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 68.5863 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "484e6095-99fe-4967-9015-cecdb7909526")
+		)
+		(pin "2"
+			(uuid "3f1f4d73-123d-4a18-9c17-33a2ab883ad0")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -25212,6 +29772,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 384.81 215.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62b0670b-e473-47c9-accb-ca6848f15105")
+		(property "Reference" "C40"
+			(at 388.366 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 384.8037 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 384.81 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 384.81 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebc64b79-8f39-452e-aff8-50b5d803b1c4")
+		)
+		(pin "2"
+			(uuid "32cec009-e4c2-4bb0-9522-ac36d9cdad1b")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "philoctetes:SK6821MINI-E_faceup")
 		(at 105.41 158.75 0)
 		(unit 1)
@@ -25219,10 +29848,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62b0872f-531f-4aa7-ac47-5887cf5a20db")
 		(property "Reference" "led5"
-			(at 105.41 151.13 0)
+			(at 105.664 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25230,11 +29858,12 @@
 			)
 		)
 		(property "Value" "~"
-			(at 105.41 153.67 0)
+			(at 105.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -25540,10 +30169,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6493290b-26be-4623-90dc-bb3c37031330")
 		(property "Reference" "led45"
-			(at 292.1 200.66 0)
+			(at 292.1 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25556,6 +30184,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -25607,6 +30236,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65ec88f5-40d4-4034-bd85-57add519117e")
+		(property "Reference" "C13"
+			(at 36.322 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 33.0263 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 33.02 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30520bfa-1248-46b2-b5bd-c04fc3a66812")
+		)
+		(pin "2"
+			(uuid "ef458cc0-1af0-4974-88c1-cf08603c201f")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -25751,6 +30448,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 292.1 214.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "695cd9c0-b75a-4be9-ae68-86f6b99328ef")
+		(property "Reference" "C45"
+			(at 294.894 215.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 292.0937 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 292.1 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 292.1 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d66005dd-f6a0-4dec-b094-bc9dd0457b5e")
+		)
+		(pin "2"
+			(uuid "a0b1c210-939a-486b-adc6-38c6a6c0c760")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -26001,10 +30767,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6b4dccd4-be61-4a30-bfee-25e17a1fddc8")
 		(property "Reference" "led3"
-			(at 124.46 137.16 0)
+			(at 124.714 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26017,6 +30782,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -26230,10 +30996,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6dee63b0-9f5e-4e1c-bb9c-831df5c0797d")
 		(property "Reference" "led6"
-			(at 124.46 151.13 0)
+			(at 124.46 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26246,6 +31011,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -26697,10 +31463,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7635858f-4827-467a-b7ab-06e5fce90444")
 		(property "Reference" "led7"
-			(at 33.02 175.26 0)
+			(at 33.782 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26713,6 +31478,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -26778,10 +31544,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7636362a-a319-43af-8703-82d5d2d5d1ef")
 		(property "Reference" "led18"
-			(at 86.36 191.77 0)
+			(at 86.106 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26794,6 +31559,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -26845,6 +31611,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_L17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 292.1 242.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7818a0c5-6be6-4476-8bbe-73c05c5d4fb7")
+		(property "Reference" "C54"
+			(at 291.846 245.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 292.0937 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 292.1 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 292.1 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4531726b-cb3e-4052-b704-58b45164d53f")
+		)
+		(pin "2"
+			(uuid "75ed490c-70ec-4494-a83d-f70d156ba067")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -26933,10 +31768,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a5e42aa-89d8-4ead-947a-e53af1418d88")
 		(property "Reference" "led47"
-			(at 367.03 214.63 0)
+			(at 367.284 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27000,6 +31834,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b838121-1b1b-463d-8d50-5dbeec4349c0")
+		(property "Reference" "C18"
+			(at 127 203.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 123.1963 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 123.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34353f29-67b1-43fa-955a-b87a3fced9f6")
+		)
+		(pin "2"
+			(uuid "4977b9f2-a227-46b9-88ad-b1bb5c9fb59a")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -27107,10 +32009,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cb9bb89-96e4-44ff-a6a1-627e9f067434")
 		(property "Reference" "led16"
-			(at 104.14 190.5 0)
+			(at 104.14 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27123,6 +32024,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -27267,6 +32169,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 383.54 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ec0b6b9-fbe4-4193-bf17-e55a893c9d93")
+		(property "Reference" "C34"
+			(at 386.588 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 383.5337 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 383.54 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 383.54 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ab0e8c-b9ea-42da-aa8d-1ab4e35afcc7")
+		)
+		(pin "2"
+			(uuid "1f6addfa-77f0-4c70-98a5-aaabe0f4d420")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -27445,10 +32416,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80606f14-38ce-43ed-bea1-2586028d8fa6")
 		(property "Reference" "led9"
-			(at 68.58 175.26 0)
+			(at 68.326 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27461,6 +32431,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -27747,10 +32718,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82ae4479-ad9a-4109-8b35-65c1efc53681")
 		(property "Reference" "led31"
-			(at 331.47 158.75 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27763,6 +32733,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -27814,6 +32785,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LEDU_R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 311.15 242.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d36810-7942-40b0-bf22-1153e747fdeb")
+		(property "Reference" "C53"
+			(at 310.896 245.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 311.1437 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 311.15 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 311.15 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462ddf40-2bf6-499c-97c8-1175f4e5d3cd")
+		)
+		(pin "2"
+			(uuid "49eb70e3-8d15-493a-828d-de8379edd494")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -28180,10 +33220,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88da5730-b744-421a-8c25-c1fa6ec91651")
 		(property "Reference" "led35"
-			(at 367.03 186.69 0)
+			(at 367.284 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28196,6 +33235,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -28401,6 +33441,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d9fd662-99f5-4531-8ef7-ddb730483be4")
+		(property "Reference" "C16"
+			(at 90.17 204.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 86.3663 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c51f8a-14bb-4235-bbc3-10ae60494494")
+		)
+		(pin "2"
+			(uuid "9794f235-30dd-48f7-bab7-b729e9e8e161")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 29.21 90)
 		(unit 1)
@@ -28482,10 +33590,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90ecef9a-848e-4cd1-ae4b-981684ecca48")
 		(property "Reference" "led39"
-			(at 292.1 186.69 0)
+			(at 292.354 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28498,6 +33605,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -28563,10 +33671,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "919d29cc-8d4d-4a14-b812-2482c36dcbc8")
 		(property "Reference" "led41"
-			(at 367.03 200.66 0)
+			(at 367.03 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28579,6 +33686,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -28785,6 +33893,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 347.98 231.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92123c21-9222-41f7-a697-11bb16be000f")
+		(property "Reference" "C48"
+			(at 348.234 234.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 347.9737 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 347.98 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 347.98 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e33b224b-3d58-4325-a7f5-ae3bc953d149")
+		)
+		(pin "2"
+			(uuid "3ddd7956-9661-4e75-b013-9b79139ca86a")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 294.64 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92adc602-1c05-4102-917c-91b63d229d81")
+		(property "Reference" "C33"
+			(at 297.688 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 282.956 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 294.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 294.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecf4c217-5b1f-44ef-840f-ccdee4e26e0f")
+		)
+		(pin "2"
+			(uuid "976af680-fd87-4e45-8426-3fad8a0b6713")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SK6821MINI-E_facedown_23")
 		(lib_id "philoctetes:SK6821MINI-E_facedown")
 		(at 105.41 213.36 0)
@@ -28793,10 +34038,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93c224af-b5d8-4426-8d9e-a699ec28052a")
 		(property "Reference" "led23"
-			(at 105.41 205.74 0)
+			(at 105.41 213.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28809,6 +34053,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -28874,10 +34119,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95336c08-4d22-485d-bf7d-0d6b8a4796d5")
 		(property "Reference" "led52"
-			(at 328.93 228.6 0)
+			(at 329.184 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28890,6 +34134,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -28954,10 +34199,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9695c7db-e0ff-44db-bc35-6586fb73437b")
 		(property "Reference" "led32"
-			(at 313.69 158.75 0)
+			(at 313.69 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28970,6 +34214,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -29172,10 +34417,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98e26a34-b3eb-4651-9fb6-483bfdea2af2")
 		(property "Reference" "led44"
-			(at 311.15 200.66 0)
+			(at 311.15 208.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29188,6 +34432,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -29239,6 +34484,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "990edb80-df14-49ea-a0cf-a8aa705cd4fc")
+		(property "Reference" "C19"
+			(at 36.068 221.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 33.0263 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2536142-5f7c-408c-bc7d-d58b9b54782f")
+		)
+		(pin "2"
+			(uuid "24fbf1e8-cc98-4c42-bd68-ffcd48e7ac6b")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -29775,10 +35088,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a33478ee-8adf-4154-acf7-0f0f0ea0235d")
 		(property "Reference" "led38"
-			(at 311.15 186.69 0)
+			(at 311.15 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29791,6 +35103,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -30105,6 +35418,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5a273ab-82e4-4ba1-bd43-dc434f81635d")
+		(property "Reference" "C11"
+			(at 107.696 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 104.1463 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 104.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7281f616-d889-4fae-b4c3-c0df8871297a")
+		)
+		(pin "2"
+			(uuid "73783061-d893-4249-b5ad-b258591f3b42")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 303.53 179.07 270)
 		(unit 1)
@@ -30172,6 +35553,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6fecbce-5fbc-450b-ac54-c6174eaeb0fb")
+		(property "Reference" "C10"
+			(at 89.916 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 86.3663 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d9f97c1-5483-49c5-bf7f-887304e86b71")
+		)
+		(pin "2"
+			(uuid "c17e0ab4-5dc4-4286-8ced-bf4e1e1a9763")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -30758,10 +36207,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac66de16-5760-4548-a859-d8f4986a8e69")
 		(property "Reference" "led10"
-			(at 86.36 175.26 0)
+			(at 86.36 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30774,6 +36222,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -30921,10 +36370,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "acab544a-6824-4e89-9fbb-80c2e101a800")
 		(property "Reference" "led14"
-			(at 50.8 190.5 0)
+			(at 51.308 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30937,6 +36385,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -31076,10 +36525,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad9a52ae-cb72-44a2-887b-ef88c5bd7f29")
 		(property "Reference" "led8"
-			(at 50.8 175.26 0)
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31092,6 +36540,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -31250,10 +36699,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae52526b-f840-484c-b0d6-c68023371d9a")
 		(property "Reference" "led12"
-			(at 123.19 175.26 0)
+			(at 123.444 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31266,6 +36714,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -31317,6 +36766,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 365.76 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae76ab04-060c-4c51-931d-8901adbb893f")
+		(property "Reference" "C35"
+			(at 368.3 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 365.7537 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 365.76 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 365.76 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e04660a-85e9-4c6c-b2db-120630f830a3")
+		)
+		(pin "2"
+			(uuid "3cd3608d-e341-42fa-8e58-d23c7b56feb3")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -31516,10 +37034,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b09139c5-26f4-47c2-bf3d-b9fa04568445")
 		(property "Reference" "led2"
-			(at 105.41 137.16 0)
+			(at 105.664 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31532,6 +37049,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -31763,10 +37281,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1fabfb3-f16d-47a5-b64e-05ee2557bf4a")
 		(property "Reference" "led36"
-			(at 347.98 186.69 0)
+			(at 347.98 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31779,6 +37296,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -31903,6 +37421,75 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 328.93 214.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b298e8bc-40bf-4b65-943a-c56e1e4cdbf0")
+		(property "Reference" "C43"
+			(at 332.486 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 328.9237 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 328.93 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 328.93 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d199532-16b4-4dee-bd3a-e25ea9fce418")
+		)
+		(pin "2"
+			(uuid "3c1d01a7-eefa-4673-b370-fdd271076171")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -32303,10 +37890,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b67a2baf-11cf-43f9-84a4-a4572d206a23")
 		(property "Reference" "led51"
-			(at 292.1 214.63 0)
+			(at 292.354 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32319,6 +37905,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -32383,10 +37970,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b69189e1-6177-4f8d-8f22-6b0450812ace")
 		(property "Reference" "led29"
-			(at 313.69 146.05 0)
+			(at 313.944 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32399,6 +37985,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -32749,6 +38336,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 367.03 228.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb065cd4-84f9-4eae-b922-6468582b332c")
+		(property "Reference" "C47"
+			(at 367.284 232.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 367.0237 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 367.03 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 367.03 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5bc9a9-9cdf-47a8-a545-2c341ca81408")
+		)
+		(pin "2"
+			(uuid "bd2051c7-607c-4faf-8d16-87ecb6a71010")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SK6821MINI-E_facedown_32")
 		(lib_id "philoctetes:SK6821MINI-E_facedown")
 		(at 86.36 213.36 0)
@@ -32757,10 +38413,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbd11ef6-7743-4ca3-92d2-6e04c1a0f7eb")
 		(property "Reference" "led22"
-			(at 86.36 205.74 0)
+			(at 86.36 213.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32773,6 +38428,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -33058,10 +38714,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "beb549d0-7299-46af-9018-6628e5308d13")
 		(property "Reference" "led19"
-			(at 33.02 205.74 0)
+			(at 33.274 213.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33074,6 +38729,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -33209,10 +38865,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c09825c3-b089-48fa-a1d0-9ccf42a78b3a")
 		(property "Reference" "led27"
-			(at 123.19 220.98 0)
+			(at 123.444 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33225,6 +38880,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -33276,6 +38932,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0d6ea20-d255-40ac-982d-d9f67b514c0f")
+		(property "Reference" "C15"
+			(at 72.136 203.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 68.5863 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 68.58 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40f7a534-b1af-41dc-9780-7fe9af986cc2")
+		)
+		(pin "2"
+			(uuid "ff2c3f96-3ac2-4e95-b3fb-9a8384dadba4")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -33431,6 +39155,74 @@
 			(project ""
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LEFT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11ea25a-c1ec-4a16-bbf4-a5f875062424")
+		(property "Reference" "C26"
+			(at 105.41 238.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 104.1463 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 104.14 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8df408f-b05e-4907-beb2-543144d5756c")
+		)
+		(pin "2"
+			(uuid "c3f95964-238f-499f-a4e2-fb9ca73cb4b4")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -33666,10 +39458,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2d95546-1f56-4f92-a0c5-4c6c43de2acc")
 		(property "Reference" "led1"
-			(at 85.09 137.16 0)
+			(at 85.344 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33682,6 +39473,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -33820,10 +39612,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c51348d8-83f0-49ce-a9f3-47a7c08b25be")
 		(property "Reference" "led34"
-			(at 384.81 186.69 0)
+			(at 385.064 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33836,6 +39627,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -33975,10 +39767,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7b6ec49-7c8d-47fe-9515-c9eac4a06656")
 		(property "Reference" "led40"
-			(at 384.81 200.66 0)
+			(at 385.064 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33991,6 +39782,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -34120,6 +39912,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 332.74 158.75 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c880a40b-ba5d-4ebf-a728-8f9f3bbcf2c7")
+		(property "Reference" "C28"
+			(at 335.788 159.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 344.424 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 332.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 332.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8ac1ca0-d137-4d7d-96a2-2a3ff67b24b2")
+		)
+		(pin "2"
+			(uuid "7708ad5d-e171-43b5-a66a-1dcb7a09ce82")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 330.2 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9c58b2a-6ed1-45bf-bf95-5c1fc30eb4e0")
+		(property "Reference" "C37"
+			(at 333.248 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 330.1937 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9385c4ed-54e0-4269-a8a7-f5ee330e8425")
+		)
+		(pin "2"
+			(uuid "bccde2b9-e268-4921-9166-160c6f26ea44")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "home:Placeholder_Keyswitch")
 		(at 127 49.53 0)
 		(unit 1)
@@ -34201,10 +40131,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf3ba259-6bae-45e0-93f7-c82371f9c0d6")
 		(property "Reference" "led33"
-			(at 294.64 158.75 0)
+			(at 294.64 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34217,6 +40146,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -34441,6 +40371,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 347.98 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1a2eee3-1e2f-4364-b011-7edb8e685f0a")
+		(property "Reference" "C36"
+			(at 350.774 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 347.9737 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 347.98 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 347.98 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5ee13bf-b768-4a4a-b4d0-176af74335d7")
+		)
+		(pin "2"
+			(uuid "08934923-87c4-4f87-aba3-a82f9179c9b5")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
 		(at 191.77 128.27 0)
 		(unit 1)
@@ -34512,6 +40511,142 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "PSW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d285b9bd-72e4-40ac-9b00-edba19a2bbf1")
+		(property "Reference" "C21"
+			(at 71.628 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 68.5863 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 68.58 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a58c9af-6f8d-444c-9f55-879a759494aa")
+		)
+		(pin "2"
+			(uuid "e13054ab-3ac1-4981-889b-210b4170ca07")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d16519-db55-42a6-bf97-47273bfea244")
+		(property "Reference" "C20"
+			(at 54.102 218.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 50.8063 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 50.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26195e8b-dbe3-41cb-8270-dcccdf188aca")
+		)
+		(pin "2"
+			(uuid "4f18d96d-e25d-4162-b0e4-d00beb78ead9")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -34758,6 +40893,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 328.93 242.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc2b73fc-fe9d-49fb-844d-7616d04c821e")
+		(property "Reference" "C52"
+			(at 328.93 245.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 328.9237 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 328.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 328.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9790bda5-8c2d-440e-b6ae-91b35061a6c4")
+		)
+		(pin "2"
+			(uuid "d612250e-1c5c-48e6-a1d8-7538beb49c29")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 193.04 34.29 270)
 		(unit 1)
@@ -34997,6 +41201,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 367.03 214.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de32c4b6-84f3-4a00-b34d-52d0960774cb")
+		(property "Reference" "C41"
+			(at 370.586 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 367.0237 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 367.03 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 367.03 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82fdedb-9632-4270-81cd-5ea17ab29791")
+		)
+		(pin "2"
+			(uuid "cf7fcf19-354c-4640-a8d1-7dc548a7cefc")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 245.11 161.29 0)
 		(unit 1)
@@ -35076,10 +41349,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0290caf-fa7c-445a-8b62-3fe8ea5035ad")
 		(property "Reference" "led48"
-			(at 347.98 214.63 0)
+			(at 347.98 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35092,6 +41364,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -35586,6 +41859,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 85.09 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e73394e4-5b26-4d12-b83c-cfa2f2fe6132")
+		(property "Reference" "C1"
+			(at 88.138 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 73.406 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 85.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c01e26-e7fe-4922-a5e5-054d96eb564e")
+		)
+		(pin "2"
+			(uuid "9efd404c-76f4-4580-af67-249e7af087cb")
+		)
+		(instances
+			(project ""
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e80ecafd-2e05-49d6-94c4-4147149f85a6")
+		(property "Reference" "C5"
+			(at 109.22 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 106.6863 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0b779e0-f838-4414-bbf3-e277a33ebd04")
+		)
+		(pin "2"
+			(uuid "87244b39-f41f-4ef9-8808-74f89c58ef73")
+		)
+		(instances
+			(project ""
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "home:Placeholder_Keyswitch")
 		(at 288.29 34.29 0)
 		(unit 1)
@@ -35667,10 +42076,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e87c205c-576f-47e1-a21a-cfe25d14db9d")
 		(property "Reference" "led30"
-			(at 294.64 146.05 0)
+			(at 294.64 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35683,6 +42091,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_faceup"
@@ -35821,10 +42230,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e89f862f-1cce-4633-9e07-7f3dfa425b79")
 		(property "Reference" "led26"
-			(at 105.41 220.98 0)
+			(at 105.664 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35837,6 +42245,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -36049,10 +42458,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea06d0d0-30cb-479d-8c98-ca03a608c15a")
 		(property "Reference" "led54"
-			(at 292.1 228.6 0)
+			(at 292.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36065,6 +42473,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -36116,6 +42525,74 @@
 			(project "mysuperawesomekb"
 				(path "/4a04f5f3-f5f7-4d2e-9596-22b42a392671"
 					(reference "LED_R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 85.09 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec9fc986-311c-4684-9b0f-8b6907938d7d")
+		(property "Reference" "C4"
+			(at 87.63 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 80.264 167.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4250ae17-b607-4da8-baf7-24b21ed01646")
+		)
+		(pin "2"
+			(uuid "43b7a800-420c-4f58-a693-5ef527675054")
+		)
+		(instances
+			(project ""
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -36921,6 +43398,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2ad9b7f-11fc-4933-827c-989ffe95e4b9")
+		(property "Reference" "C17"
+			(at 107.696 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 104.1463 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 104.14 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e63ef84-f76a-4b38-bd75-6ac90d3d889e")
+		)
+		(pin "2"
+			(uuid "bac6c573-c123-4607-bbfc-df3410719b11")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "home:Placeholder_Keyswitch")
 		(at 105.41 30.48 0)
 		(unit 1)
@@ -37069,6 +43614,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 334.01 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f620bb20-61dc-4775-a1dc-755674570d61")
+		(property "Reference" "C31"
+			(at 336.804 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 348.234 173.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 334.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 334.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393e0324-5afa-4b46-9151-22c9be4d0e37")
+		)
+		(pin "2"
+			(uuid "e0dedc96-ec0c-4bcd-8be7-d0f692cea443")
+		)
+		(instances
+			(project "philoctetes"
+				(path "/2a55be96-0621-414c-9e2a-5e2757c4c7b6"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "scotto_keebs:Placeholder_Mounting_Hole")
 		(at 358.775 104.14 0)
 		(mirror y)
@@ -37148,10 +43761,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9b0a7fc-93c3-4fba-866a-105e3d24e4fe")
 		(property "Reference" "led11"
-			(at 104.14 175.26 0)
+			(at 104.902 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37164,6 +43776,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
@@ -37469,10 +44082,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe6e5adb-d812-45d4-8e6c-c64d6822d7aa")
 		(property "Reference" "led37"
-			(at 328.93 186.69 0)
+			(at 329.184 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37485,6 +44097,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "philoctetes:LED_SK6812MINI-E_facedown"
