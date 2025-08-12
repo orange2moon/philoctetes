@@ -1,0 +1,82 @@
+(footprint "handwire_A_B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.75 12 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c02d6c04-c023-464a-bfab-cc64dde1329f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "handwire_A_B"
+		(at 1.5 -3.5 0)
+		(layer "F.Fab")
+		(uuid "cbeb31d6-268a-4601-8d7e-7f41a9026e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74d8b67f-e6cb-4755-a1ec-0fb78a617ef9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3797e3c-0036-44da-8497-c25300b80f04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(pad "1" thru_hole rect
+		(at 0 1.54 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f61e7be-a576-4d4a-bb92-753d09fef312")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -1 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80894963-e706-4171-95aa-f3b4e1453944")
+	)
+	(embedded_fonts no)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
+		(offset
+			(xyz 19 -6 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
